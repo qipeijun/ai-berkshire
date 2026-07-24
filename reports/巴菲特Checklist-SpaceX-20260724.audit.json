@@ -1,0 +1,80 @@
+[
+  {
+    "id": 2,
+    "label": "股价 · 截止时间与口径",
+    "reported_value": 2026.0,
+    "unit": "",
+    "fetched_value": 2026.0,
+    "fetched_source": "Investing.com SPCX 2026-07-23 历史价格日期",
+    "fetched_value2": 2026.0,
+    "fetched_source2": "Macrotrends SPCX 2026-07-23 历史价格日期"
+  },
+  {
+    "id": 12,
+    "label": "2025 粗自由现金流 · 数值",
+    "reported_value": 13.952,
+    "unit": "B",
+    "fetched_value": 13.952,
+    "fetched_source": "SEC 424B4: 2025 CFO 6.785B - Capex 20.737B",
+    "fetched_value2": 13.952,
+    "fetched_source2": "financial_rigor.py calc 独立复算绝对值"
+  },
+  {
+    "id": 25,
+    "label": "自由现金流 · 公司数值",
+    "reported_value": 2025.0,
+    "unit": "",
+    "fetched_value": 2025.0,
+    "fetched_source": "SEC 424B4 财务报表年度",
+    "fetched_value2": 2025.0,
+    "fetched_source2": "StockAnalysis 财务报表年度"
+  },
+  {
+    "id": 28,
+    "label": "负债水平 · 参考标准",
+    "reported_value": 3.0,
+    "unit": "",
+    "fetched_value": 3.0,
+    "fetched_source": "investment-checklist 预设判断标准"
+  },
+  {
+    "id": 30,
+    "label": "股东利益导向 · 评估",
+    "reported_value": 46.12,
+    "unit": "%",
+    "fetched_value": 46.12,
+    "fetched_source": "SEC 424B4 最终发行后基本经济权益复算",
+    "fetched_value2": 46.12,
+    "fetched_source2": "基础投资研究报告股权结构验算"
+  },
+  {
+    "id": 36,
+    "label": "悲观 / No-Go · 相对买入价 $166",
+    "reported_value": 75.3,
+    "unit": "%",
+    "fetched_value": 75.3012048193,
+    "fetched_source": "financial_rigor.py: abs((41/166-1)*100)",
+    "fetched_value2": 75.3,
+    "fetched_source2": "41 美元情景价值与用户买入价独立复算"
+  },
+  {
+    "id": 43,
+    "label": "乐观 / Moonshot · 每股价值",
+    "reported_value": 154.0,
+    "unit": "",
+    "fetched_value": 154.0,
+    "fetched_source": "Morningstar 2026-06-08 SpaceX Moonshot 情景",
+    "fetched_value2": 154.0,
+    "fetched_source2": "Morningstar 完整估值报告情景表"
+  },
+  {
+    "id": 52,
+    "label": "价格纪律",
+    "reported_value": 50.0,
+    "unit": "",
+    "fetched_value": 50.0,
+    "fetched_source": "本报告观察价格纪律取整",
+    "fetched_value2": 50.4,
+    "fetched_source2": "financial_rigor.py: 63 美元中性价值的 20% 折价"
+  }
+]

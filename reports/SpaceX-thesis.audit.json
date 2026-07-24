@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "label": "买入价 · 数值",
+    "reported_value": 166.0,
+    "unit": "",
+    "fetched_value": 166.0,
+    "fetched_source": "用户在 2026-07-24 提供的实际成交价"
+  },
+  {
+    "id": 15,
+    "label": "政府业务受损 · 触发判据",
+    "reported_value": 30.0,
+    "unit": "%",
+    "fetched_value": 30.0,
+    "fetched_source": "本论文预先设定的风险纪律阈值"
+  },
+  {
+    "id": 18,
+    "label": "乐观 · 相对买入价 $166",
+    "reported_value": 7.23,
+    "unit": "%",
+    "fetched_value": 7.2289156627,
+    "fetched_source": "financial_rigor.py: abs((154/166-1)*100)",
+    "fetched_value2": 7.23,
+    "fetched_source2": "情景价值与买入价独立复算"
+  },
+  {
+    "id": 22,
+    "label": "中性 · 相对买入价 $166",
+    "reported_value": 62.05,
+    "unit": "%",
+    "fetched_value": 62.0481927711,
+    "fetched_source": "financial_rigor.py: abs((63/166-1)*100)",
+    "fetched_value2": 62.05,
+    "fetched_source2": "情景价值与买入价独立复算"
+  },
+  {
+    "id": 27,
+    "label": "悲观 · 相对现价 $118.24",
+    "reported_value": 65.32,
+    "unit": "%",
+    "fetched_value": 65.3247631935,
+    "fetched_source": "financial_rigor.py: abs((41/118.24-1)*100)",
+    "fetched_value2": 65.32,
+    "fetched_source2": "情景价值与现价独立复算"
+  }
+]
