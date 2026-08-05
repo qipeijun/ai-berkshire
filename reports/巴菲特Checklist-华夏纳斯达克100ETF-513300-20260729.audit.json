@@ -1,0 +1,126 @@
+[
+  {
+    "id": 4,
+    "reported_value": 7.61,
+    "fetched_source": "HaoETF 513300 盘中估值，2026-07-29 09:46",
+    "fetched_value": 7.61,
+    "fetched_source2": "financial_rigor.py calc: (2.514 / 2.3363 - 1) * 100",
+    "fetched_value2": 7.6060437444
+  },
+  {
+    "id": 5,
+    "reported_value": 2.51,
+    "fetched_source": "东方财富 513300 行情，2026-07-29 14:12",
+    "fetched_value": 2.514,
+    "fetched_source2": "新浪财经 513300 行情，2026-07-29 14:12",
+    "fetched_value2": 2.515
+  },
+  {
+    "id": 12,
+    "reported_value": 2.51,
+    "fetched_source": "东方财富 513300 行情，2026-07-29 14:12",
+    "fetched_value": 2.514,
+    "fetched_source2": "溢价率精确计算的价格输入",
+    "fetched_value2": 2.514
+  },
+  {
+    "id": 14,
+    "reported_value": 2.52,
+    "fetched_source": "东方财富 513300 行情，2026-07-29 14:12",
+    "fetched_value": 2.514,
+    "fetched_source2": "新浪财经 513300 行情，2026-07-29 14:12",
+    "fetched_value2": 2.515
+  },
+  {
+    "id": 15,
+    "reported_value": 51.93,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告",
+    "fetched_value": 51.92921,
+    "fetched_source2": "华夏基金产品资料，2026-06-30",
+    "fetched_value2": 51.92921
+  },
+  {
+    "id": 18,
+    "reported_value": 2026,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告",
+    "fetched_value": 2026,
+    "fetched_source2": "华夏基金产品资料截止日期 2026-06-30",
+    "fetched_value2": 2026
+  },
+  {
+    "id": 29,
+    "reported_value": -0.09,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告",
+    "fetched_value": -0.09,
+    "fetched_source2": "精确计算：25.19% - 25.28%",
+    "fetched_value2": -0.09
+  },
+  {
+    "id": 28,
+    "reported_value": 25.19,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告",
+    "fetched_value": 25.19,
+    "fetched_source2": "华夏基金产品业绩资料，2026-06-30",
+    "fetched_value2": 25.19
+  },
+  {
+    "id": 32,
+    "reported_value": 9.46,
+    "fetched_source": "ProShares Nasdaq-100 基本面指标，2026-06-30",
+    "fetched_value": 9.46
+  },
+  {
+    "id": 33,
+    "reported_value": 2026,
+    "fetched_source": "ProShares 基本面指标日期 2026-06-30",
+    "fetched_value": 2026,
+    "fetched_source2": "华夏基金第 2 季度报告截止日期 2026-06-30",
+    "fetched_value2": 2026
+  },
+  {
+    "id": 36,
+    "reported_value": 6.14,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告：Alphabet A 3.19% + C 2.95%",
+    "fetched_value": 6.14,
+    "fetched_source2": "精确计算：3.19 + 2.95",
+    "fetched_value2": 6.14
+  },
+  {
+    "id": 39,
+    "reported_value": 4.00,
+    "fetched_source": "华夏基金 2026 年第 2 季度报告",
+    "fetched_value": 4.00,
+    "fetched_source2": "华夏基金产品持仓资料，2026-06-30",
+    "fetched_value2": 4.00
+  },
+  {
+    "id": 55,
+    "reported_value": 0.55,
+    "fetched_source": "ProShares Nasdaq-100 股息率，2026-06-30",
+    "fetched_value": 0.55
+  },
+  {
+    "id": 69,
+    "reported_value": 22,
+    "fetched_source": "financial_rigor.py three-scenario 悲观情景输入",
+    "fetched_value": 22,
+    "fetched_source2": "报告悲观情景假设",
+    "fetched_value2": 22
+  },
+  {
+    "id": 75,
+    "reported_value": 2026,
+    "fetched_source": "华夏基金招募说明书更新日期 2026-05-29",
+    "fetched_value": 2026,
+    "fetched_source2": "华夏基金公告页面年份",
+    "fetched_value2": 2026
+  },
+  {
+    "id": 76,
+    "reported_value": 2026,
+    "fetched_source": "经济观察网文章发布日期 2026-07-27",
+    "fetched_value": 2026,
+    "fetched_source2": "报告引用日期",
+    "fetched_value2": 2026
+  }
+]
