@@ -1,0 +1,126 @@
+{
+  "report": "reports/粤高速/粤高速A投资研究报告_20260810.md",
+  "audit_date": "2026-08-10",
+  "ratio": 0.15,
+  "seed": 42,
+  "total_extracted_points": 71,
+  "sampled_points": 11,
+  "verdict": "PASS",
+  "pass_count": 8,
+  "warn_count": 0,
+  "fail_count": 0,
+  "not_applicable_count": 3,
+  "not_applicable_reason": "主观评分和模型假设不属于可由外部信源取数的事实。",
+  "results": [
+    {
+      "id": 3,
+      "label": "行业与竞争评分",
+      "reported_value": 3.5,
+      "status": "N/A",
+      "reason": "主观评分"
+    },
+    {
+      "id": 4,
+      "label": "风险、治理与管理层评分",
+      "reported_value": 3.0,
+      "status": "N/A",
+      "reason": "主观评分"
+    },
+    {
+      "id": 12,
+      "label": "表观PE",
+      "reported_value": 15.57,
+      "unit": "倍",
+      "fetched_value": 15.5697674419,
+      "fetched_source": "腾讯行情与巨潮资讯2025年报",
+      "fetched_value2": 15.5697674419,
+      "fetched_source2": "新浪行情与东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 14,
+      "label": "PB",
+      "reported_value": 2.43,
+      "unit": "倍",
+      "fetched_value": 2.4294834095,
+      "fetched_source": "腾讯行情与巨潮资讯2026Q1",
+      "fetched_value2": 2.4294834095,
+      "fetched_source2": "新浪行情与东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 15,
+      "label": "前瞻正常化股息率",
+      "reported_value": 3.82,
+      "unit": "%",
+      "status": "N/A",
+      "reason": "基于扣非EPS和70%分红假设的模型值"
+    },
+    {
+      "id": 18,
+      "label": "2024年归母净利润",
+      "reported_value": 15.62,
+      "unit": "亿元",
+      "fetched_value": 15.6212221995,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 15.6212221995,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 29,
+      "label": "2025年毛利率",
+      "reported_value": 64.51,
+      "unit": "%",
+      "fetched_value": 64.5136852981,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 64.5136852981,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 28,
+      "label": "2024年毛利率",
+      "reported_value": 64.31,
+      "unit": "%",
+      "fetched_value": 64.3083400892,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 64.3083400892,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 32,
+      "label": "2024年资产负债率",
+      "reported_value": 41.20,
+      "unit": "%",
+      "fetched_value": 41.20,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 41.20,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 36,
+      "label": "2025Q1归母净利润",
+      "reported_value": 6.57,
+      "unit": "亿元",
+      "fetched_value": 6.5748251783,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 6.5748251783,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    },
+    {
+      "id": 38,
+      "label": "2025Q1扣非归母净利润",
+      "reported_value": 4.00,
+      "unit": "亿元",
+      "fetched_value": 3.9968231742,
+      "fetched_source": "巨潮资讯2025年报",
+      "fetched_value2": 3.9968231742,
+      "fetched_source2": "东方财富F10",
+      "status": "PASS"
+    }
+  ]
+}
