@@ -1,0 +1,135 @@
+{
+  "report": "reports/巴菲特Checklist-招商银行_兴业银行-20260810.md",
+  "audit_date": "2026-08-10",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 77,
+  "sample_count": 12,
+  "passed": 12,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "通过仅表示抽样数字可由外部来源或工具复算，不证明主观评分、模型假设或价格带正确。",
+  "results": [
+    {
+      "id": 4,
+      "label": "2026-08-07 收盘价·兴业银行",
+      "reported_value": 18.34,
+      "unit": "元",
+      "fetched_value": 18.34,
+      "fetched_source": "腾讯行情 2026-08-07",
+      "fetched_value2": 18.34,
+      "fetched_source2": "新浪行情 2026-08-07"
+    },
+    {
+      "id": 5,
+      "label": "总市值·招商银行",
+      "reported_value": 9785.30,
+      "unit": "亿元",
+      "fetched_value": 9785.30,
+      "fetched_source": "腾讯行情 2026-08-07",
+      "fetched_value2": 9785.29,
+      "fetched_source2": "financial_rigor: 38.80 元 x 252.19845601 亿股"
+    },
+    {
+      "id": 12,
+      "label": "2025 年 ROE·兴业银行",
+      "reported_value": 9.15,
+      "unit": "%",
+      "fetched_value": 9.15,
+      "fetched_source": "兴业银行 2025 年年度报告",
+      "fetched_value2": 9.15,
+      "fetched_source2": "兴业银行官网财务概要"
+    },
+    {
+      "id": 14,
+      "label": "2021-2025 平均 ROE·兴业银行",
+      "reported_value": 11.49,
+      "unit": "%",
+      "fetched_value": 11.494,
+      "fetched_source": "兴业银行 2021-2025 年报披露值算术平均",
+      "fetched_value2": 11.494,
+      "fetched_source2": "financial_rigor calc"
+    },
+    {
+      "id": 15,
+      "label": "2025 年净息差·招商银行",
+      "reported_value": 1.87,
+      "unit": "%",
+      "fetched_value": 1.87,
+      "fetched_source": "招商银行 2025 年年度报告",
+      "fetched_value2": 1.87,
+      "fetched_source2": "招商银行 2025 年年报摘要"
+    },
+    {
+      "id": 18,
+      "label": "2026Q1 净息差·兴业银行",
+      "reported_value": 1.62,
+      "unit": "%",
+      "fetched_value": 1.62,
+      "fetched_source": "兴业银行 2026 年第一季度报告",
+      "fetched_value2": 1.62,
+      "fetched_source2": "兴业银行一季报官方发布稿"
+    },
+    {
+      "id": 29,
+      "label": "PB·兴业银行",
+      "reported_value": 0.47,
+      "unit": "倍",
+      "fetched_value": 0.4662,
+      "fetched_source": "financial_rigor: 18.34 / 39.34",
+      "fetched_value2": 0.47,
+      "fetched_source2": "腾讯行情 2026-08-07"
+    },
+    {
+      "id": 32,
+      "label": "资本配置年份",
+      "reported_value": 2025,
+      "unit": "年",
+      "fetched_value": 2025,
+      "fetched_source": "招商银行 2025 年度利润分配方案",
+      "fetched_value2": 2025,
+      "fetched_source2": "招商银行 2025 年度 A 股分红实施公告"
+    },
+    {
+      "id": 36,
+      "label": "股息率·招商银行",
+      "reported_value": 5.20,
+      "unit": "%",
+      "fetched_value": 5.1959,
+      "fetched_source": "financial_rigor: 2.016 / 38.80",
+      "fetched_value2": 5.20,
+      "fetched_source2": "腾讯行情 2026-08-07"
+    },
+    {
+      "id": 55,
+      "label": "兴业银行乐观情景 EPS 年增速",
+      "reported_value": 3.00,
+      "unit": "%",
+      "fetched_value": 3.00,
+      "fetched_source": "报告明确披露的模型输入",
+      "fetched_value2": 3.00,
+      "fetched_source2": "financial_rigor three-scenario 命令输入"
+    },
+    {
+      "id": 70,
+      "label": "招商银行当前价纪律",
+      "reported_value": 38.80,
+      "unit": "元",
+      "fetched_value": 38.80,
+      "fetched_source": "腾讯行情 2026-08-07",
+      "fetched_value2": 38.80,
+      "fetched_source2": "新浪行情 2026-08-07"
+    },
+    {
+      "id": 76,
+      "label": "兴业银行强安全边际关注区下界",
+      "reported_value": 15.20,
+      "unit": "元",
+      "fetched_value": 15.23,
+      "fetched_source": "模型规则: DPS 1.066 / 7%",
+      "fetched_value2": 15.20,
+      "fetched_source2": "报告明确披露的纪律区间"
+    }
+  ]
+}

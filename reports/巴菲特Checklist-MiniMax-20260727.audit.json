@@ -1,0 +1,148 @@
+[
+  {
+    "id": 4,
+    "label": "股价 · 判断",
+    "reported_value": 165.0,
+    "unit": "",
+    "fetched_value": 165.0,
+    "fetched_source": "港交所 2026-01-08 配发结果：最终发售价 HK$165",
+    "fetched_value2": 165.0,
+    "fetched_source2": "经济通 MiniMax IPO 资料：上市价 HK$165"
+  },
+  {
+    "id": 2,
+    "label": "股价 · 数值",
+    "reported_value": 196.0,
+    "unit": "",
+    "fetched_value": 196.0,
+    "fetched_source": "StockAnalysis 0100.HK 2026-07-24 收盘价",
+    "fetched_value2": 196.0,
+    "fetched_source2": "恒生银行 00100 2026-07-24 延时报价"
+  },
+  {
+    "id": 5,
+    "label": "当前市值 · 数值",
+    "reported_value": 68.45,
+    "unit": "",
+    "fetched_value": 68.450120368,
+    "fetched_source": "financial_rigor.py verify-market-cap：196 x 349,235,308",
+    "fetched_value2": 68.45,
+    "fetched_source2": "港交所 2026-07-16 股本数与 StockAnalysis 收盘价独立复算"
+  },
+  {
+    "id": 6,
+    "label": "当前市值 · 截止时间与口径",
+    "reported_value": 7.0,
+    "unit": "",
+    "fetched_value": 7.0,
+    "fetched_source": "港交所 2026-07-14 配售完成，新增 35.6m 股"
+  },
+  {
+    "id": 12,
+    "label": "2025 毛利率 · 数值",
+    "reported_value": 25.4,
+    "unit": "%",
+    "fetched_value": 25.4,
+    "fetched_source": "MiniMax 2025 年报第 9 页",
+    "fetched_value2": 25.4,
+    "fetched_source2": "MiniMax 2025 全年业绩新闻稿"
+  },
+  {
+    "id": 14,
+    "label": "2025 IFRS 净亏损 · 数值",
+    "reported_value": 1871.62,
+    "unit": "",
+    "fetched_value": 1871.617,
+    "fetched_source": "MiniMax 2025 年报经审计损益表",
+    "fetched_value2": 1871.617,
+    "fetched_source2": "MiniMax 2025 年度业绩公告"
+  },
+  {
+    "id": 15,
+    "label": "2025 调整后净亏损 · 数值",
+    "reported_value": 250.86,
+    "unit": "",
+    "fetched_value": 250.856,
+    "fetched_source": "MiniMax 2025 年报非 IFRS 调节表",
+    "fetched_value2": 250.856,
+    "fetched_source2": "MiniMax 2025 年度业绩公告"
+  },
+  {
+    "id": 18,
+    "label": "2025 粗自由现金流 · 数值",
+    "reported_value": 280.83,
+    "unit": "",
+    "fetched_value": 280.829,
+    "fetched_source": "2025 年报：CFO 279.641m + PP&E 0.920m + 非流动资产 0.268m",
+    "fetched_value2": 280.829,
+    "fetched_source2": "financial_rigor.py calc 独立复算绝对值"
+  },
+  {
+    "id": 29,
+    "label": "收入增速 · 2024",
+    "reported_value": 782.2,
+    "unit": "%",
+    "fetched_value": 782.2,
+    "fetched_source": "MiniMax 招股书关键财务比率表",
+    "fetched_value2": 782.1676,
+    "fetched_source2": "2023 收入 3.460m 与 2024 收入 30.523m 独立复算"
+  },
+  {
+    "id": 32,
+    "label": "毛利率 · 2024",
+    "reported_value": 12.2,
+    "unit": "%",
+    "fetched_value": 12.2,
+    "fetched_source": "MiniMax 2025 年报第 9 页",
+    "fetched_value2": 12.2465,
+    "fetched_source2": "2024 毛利 3.738m / 收入 30.523m 独立复算"
+  },
+  {
+    "id": 33,
+    "label": "毛利率 · 2025",
+    "reported_value": 25.4,
+    "unit": "%",
+    "fetched_value": 25.4,
+    "fetched_source": "MiniMax 2025 年报第 9 页",
+    "fetched_value2": 25.4042,
+    "fetched_source2": "2025 毛利 20.079m / 收入 79.038m 独立复算"
+  },
+  {
+    "id": 36,
+    "label": "调整后净亏损 · 2025",
+    "reported_value": 250.86,
+    "unit": "",
+    "fetched_value": 250.856,
+    "fetched_source": "MiniMax 2025 年报非 IFRS 调节表",
+    "fetched_value2": 250.856,
+    "fetched_source2": "MiniMax 2025 年度业绩公告"
+  },
+  {
+    "id": 55,
+    "label": "乐观 · 净利率",
+    "reported_value": 15.0,
+    "unit": "%",
+    "fetched_value": 15.0,
+    "fetched_source": "报告乐观情景假设，非公司指引",
+    "fetched_value2": 15.0,
+    "fetched_source2": "financial_rigor.py calc 情景输入"
+  },
+  {
+    "id": 67,
+    "label": "悲观 · 净利率",
+    "reported_value": 5.0,
+    "unit": "%",
+    "fetched_value": 5.0,
+    "fetched_source": "报告悲观情景假设，非公司指引",
+    "fetched_value2": 5.0,
+    "fetched_source2": "financial_rigor.py calc 情景输入"
+  },
+  {
+    "id": 73,
+    "label": "事件重评 · 动作",
+    "reported_value": 2026.0,
+    "unit": "",
+    "fetched_value": 2026.0,
+    "fetched_source": "报告设定的 2026 半年报重评事件，非财务预测"
+  }
+]
