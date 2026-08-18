@@ -1,0 +1,89 @@
+{
+  "report": "reports/巴菲特Checklist-兴业银行-20260813.md",
+  "audit_date": "2026-08-13",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 57,
+  "sample_count": 9,
+  "passed": 9,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "通过仅表示抽样数字可由一手披露、双源行情或工具复算，不证明主观评分、模型假设或价格带正确。",
+  "results": [
+    {
+      "id": 2,
+      "label": "2026Q1营业收入同比",
+      "reported_value": -1.06,
+      "unit": "%",
+      "fetched_value": -1.06,
+      "fetched_source": "兴业银行2026年第一季度报告"
+    },
+    {
+      "id": 8,
+      "label": "2026Q1净息差同比变化",
+      "reported_value": 18,
+      "unit": "BP",
+      "fetched_value": 18,
+      "fetched_source": "兴业银行2026年第一季度报告"
+    },
+    {
+      "id": 9,
+      "label": "2026Q1不良率",
+      "reported_value": 1.08,
+      "unit": "%",
+      "fetched_value": 1.08,
+      "fetched_source": "兴业银行2026年第一季度报告"
+    },
+    {
+      "id": 15,
+      "label": "2026Q1核心一级资本充足率较年初变化",
+      "reported_value": 20,
+      "unit": "BP",
+      "fetched_value": 20,
+      "fetched_source": "兴业银行2026年第一季度报告"
+    },
+    {
+      "id": 16,
+      "label": "2026-08-12收盘价",
+      "reported_value": 18.10,
+      "unit": "元",
+      "fetched_value": 18.10,
+      "fetched_source": "腾讯复权历史K线接口",
+      "fetched_value2": 18.10,
+      "fetched_source2": "腾讯及新浪2026-08-13盘中前收字段"
+    },
+    {
+      "id": 18,
+      "label": "总股本",
+      "reported_value": 211.63,
+      "unit": "亿股",
+      "fetched_value": 211.62859513,
+      "fetched_source": "兴业银行股份变动公告及腾讯行情股本字段"
+    },
+    {
+      "id": 41,
+      "label": "静态股息率股息年度",
+      "reported_value": 2025,
+      "unit": "年度",
+      "fetched_value": 2025,
+      "fetched_source": "兴业银行2025年年度报告利润分配方案"
+    },
+    {
+      "id": 48,
+      "label": "中性情景三年后EPS",
+      "reported_value": 3.46,
+      "unit": "元",
+      "fetched_value": 3.46,
+      "fetched_source": "financial_rigor.py three-scenario模型输出；0%增长假设"
+    },
+    {
+      "id": 54,
+      "label": "悲观情景目标价",
+      "reported_value": 14.70,
+      "unit": "元",
+      "fetched_value": 14.70,
+      "fetched_source": "financial_rigor.py three-scenario模型输出；-4%增长及4.8倍PE假设"
+    }
+  ]
+}

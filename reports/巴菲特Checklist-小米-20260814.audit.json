@@ -1,0 +1,145 @@
+{
+  "report": "reports/巴菲特Checklist-小米-20260814.md",
+  "audit_date": "2026-08-14",
+  "sample_ratio": 0.2,
+  "seed": 42,
+  "total_data_points": 76,
+  "sample_count": 16,
+  "passed": 16,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "通过仅表示固定种子抽样数字可由一手披露、行业原始发布、双源行情或工具复算，不证明主观评分、情景假设或价格带正确。",
+  "results": [
+    {
+      "id": 4,
+      "label": "收入 · 数值",
+      "reported_value": 991.42,
+      "unit": "亿元",
+      "fetched_value": 991.416,
+      "fetched_source": "小米2026Q1业绩公告"
+    },
+    {
+      "id": 5,
+      "label": "收入 · 时间 / 口径",
+      "reported_value": 2026,
+      "unit": "",
+      "fetched_value": 2026,
+      "fetched_source": "小米2026Q1业绩公告"
+    },
+    {
+      "id": 12,
+      "label": "手机收入 / 毛利率 · 数值",
+      "reported_value": 442.73,
+      "unit": "亿元",
+      "fetched_value": 442.733,
+      "fetched_source": "小米2026Q1业绩公告"
+    },
+    {
+      "id": 15,
+      "label": "IoT 收入 / 毛利率 · 时间 / 口径",
+      "reported_value": 2026,
+      "unit": "",
+      "fetched_value": 2026,
+      "fetched_source": "小米2026Q1业绩公告"
+    },
+    {
+      "id": 14,
+      "label": "IoT 收入 / 毛利率 · 数值",
+      "reported_value": 246.81,
+      "unit": "亿元",
+      "fetched_value": 246.812,
+      "fetched_source": "小米2026Q1业绩公告"
+    },
+    {
+      "id": 18,
+      "label": "互联网收入 / 毛利率 · 判断",
+      "reported_value": 9.6,
+      "unit": "%",
+      "fetched_value": 9.6,
+      "fetched_source": "小米2026Q1业绩公告收入分部表"
+    },
+    {
+      "id": 28,
+      "label": "有息借款 · 判断",
+      "reported_value": 1.0,
+      "unit": "倍",
+      "fetched_value": 0.99787104,
+      "fetched_source": "financial_rigor.py calc；Q1借款与TTM归母利润"
+    },
+    {
+      "id": 29,
+      "label": "收盘价 · 数值",
+      "reported_value": 25.88,
+      "unit": "港元",
+      "fetched_value": 25.88,
+      "fetched_source": "Investing.com 2026-08-13历史行情",
+      "fetched_value2": 25.88,
+      "fetched_source2": "腾讯行情2026-08-14盘中前收字段"
+    },
+    {
+      "id": 32,
+      "label": "总股本 · 计算口径",
+      "reported_value": 2026,
+      "unit": "",
+      "fetched_value": 2026,
+      "fetched_source": "港交所2026-08-11 Next Day Disclosure Return"
+    },
+    {
+      "id": 33,
+      "label": "市值 · 数值",
+      "reported_value": 6666.31,
+      "unit": "亿港元",
+      "fetched_value": 6666.3078660196,
+      "fetched_source": "financial_rigor.py calc；25.88×257.58531167"
+    },
+    {
+      "id": 36,
+      "label": "TTM IFRS EPS · 计算口径",
+      "reported_value": 2025,
+      "unit": "",
+      "fetched_value": 2025,
+      "fetched_source": "2025年报加2026Q1减2025Q1口径"
+    },
+    {
+      "id": 39,
+      "label": "BVPS · 计算口径",
+      "reported_value": 2026,
+      "unit": "",
+      "fetched_value": 2026,
+      "fetched_source": "小米2026Q1归母权益与港交所最新股本"
+    },
+    {
+      "id": 55,
+      "label": "成本 / 规模优势 · 具体证据",
+      "reported_value": 23,
+      "unit": "季度",
+      "fetched_value": 23,
+      "fetched_source": "小米2026Q1业绩公告引用Omdia"
+    },
+    {
+      "id": 69,
+      "label": "中性 · 三年目标价",
+      "reported_value": 32.3,
+      "unit": "港元",
+      "fetched_value": 32.3,
+      "fetched_source": "financial_rigor.py three-scenario；8%增长与16倍PE假设"
+    },
+    {
+      "id": 75,
+      "label": "悲观 · 当前价相对现值",
+      "reported_value": 52.1,
+      "unit": "%",
+      "fetched_value": 52.0993268359,
+      "fetched_source": "financial_rigor.py calc；悲观目标价按10%折现三年"
+    },
+    {
+      "id": 76,
+      "label": "Omdia",
+      "reported_value": 2026,
+      "unit": "",
+      "fetched_value": 2026,
+      "fetched_source": "Omdia 2026Q2全球智能手机发布页"
+    }
+  ]
+}
