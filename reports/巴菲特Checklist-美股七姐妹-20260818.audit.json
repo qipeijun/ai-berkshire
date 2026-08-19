@@ -1,0 +1,24 @@
+{
+  "report": "reports/巴菲特Checklist-美股七姐妹-20260818.md",
+  "audit_date": "2026-08-18",
+  "tool": "tools/report_audit.py",
+  "command": "python3 tools/report_audit.py verdict --report reports/巴菲特Checklist-美股七姐妹-20260818.md --results <30 extracted points> --output-json",
+  "verdict": "PASS",
+  "extracted_points": 49,
+  "audited_points": 30,
+  "pass_count": 30,
+  "warn_count": 0,
+  "fail_count": 0,
+  "tolerance": "1%",
+  "data_cutoff": "2026-08-14 close snapshot",
+  "sources": {
+    "market_data": "Wall Street Numbers Magnificent 7 watchlist",
+    "fundamental_data": "StockPik weekly screener, SEC EDGAR-derived fields"
+  },
+  "limitations": [
+    "report_audit.py caps one run at 30 sampled points; 49 points were detected and 30 were audited",
+    "each audited point was checked against the source matching the report's stated snapshot; no second source was supplied where a second source used a different date or accounting basis",
+    "Meta ROE, gross margin and revenue growth are explicitly estimated in the report and remain estimates",
+    "PASS means audited reported values matched the supplied fetched values within 1%; it does not validate qualitative scores, model assumptions, source independence, or investment conclusions"
+  ]
+}
