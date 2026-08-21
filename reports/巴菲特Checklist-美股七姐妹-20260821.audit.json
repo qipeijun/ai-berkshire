@@ -1,0 +1,48 @@
+{
+  "report": "reports/巴菲特Checklist-美股七姐妹-20260821.md",
+  "audit_date": "2026-08-21",
+  "data_cutoff": "2026-08-20 US market close; latest filings available by 2026-08-21",
+  "tool": "tools/report_audit.py",
+  "command": "python3 tools/report_audit.py verdict --report reports/巴菲特Checklist-美股七姐妹-20260821.md --results <30 verified financial points> --output-json",
+  "verdict": "PASS",
+  "extracted_candidates": 155,
+  "audited_points": 30,
+  "pass_count": 30,
+  "warn_count": 0,
+  "fail_count": 0,
+  "tolerance": "1%",
+  "scope": {
+    "companies": [
+      "Apple",
+      "Microsoft",
+      "Alphabet",
+      "Amazon",
+      "NVIDIA",
+      "Meta Platforms",
+      "Tesla"
+    ],
+    "financial_points": 23,
+    "market_price_points": 7,
+    "same_date_two-source_price_checks": 5,
+    "limited_independence_price_checks": 1,
+    "single-source_latest-price_checks": 1
+  },
+  "primary_financial_sources": [
+    "SEC 10-K and 10-Q filings",
+    "company investor-relations earnings releases",
+    "company-defined free-cash-flow and capital-expenditure disclosures where applicable"
+  ],
+  "arithmetic_checks": [
+    "seven verify-market-cap runs",
+    "seven verify-valuation runs",
+    "seven three-scenario runs"
+  ],
+  "limitations": [
+    "The extractor found 155 candidate numbers but caps one sample at 30; non-financial false positives such as checklist scores, years and quarter labels were excluded before verdict.",
+    "PASS means the selected reported values matched the supplied source or filing-derived recomputation within 1%; it does not validate qualitative ratings, normalized-EPS assumptions, scenario growth rates, terminal multiples or investment conclusions.",
+    "Most financial points were recomputed from the same primary SEC filing set and were not independently duplicated by a second financial-data provider.",
+    "Five latest closing prices had same-date two-source checks. Microsoft's second check was inferred from market capitalization and therefore has limited independence; Alphabet's latest 2026-08-20 close had only one usable source in this audit.",
+    "Alphabet, Amazon and NVIDIA GAAP earnings include material securities-valuation gains. Their normalized earnings or scenario inputs are estimates and are explicitly labeled as such in the report.",
+    "The report is research material and not investment advice. Investor-specific position size, cost basis, loss tolerance and FOMO state were not inferred."
+  ]
+}
