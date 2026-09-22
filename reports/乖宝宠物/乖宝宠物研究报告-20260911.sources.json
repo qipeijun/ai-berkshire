@@ -1,0 +1,154 @@
+{
+  "provider": "东方财富",
+  "retrieved_date": "2026-09-11",
+  "endpoint": "https://datacenter.eastmoney.com/securities/api/data/v1/get",
+  "parameters": {
+    "filter": "(SECUCODE=\"301498.SZ\")",
+    "columns": "ALL",
+    "source": "HSF10",
+    "client": "PC"
+  },
+  "reports": {
+    "GINCOME": {
+      "2026-06-30": {
+        "REPORT_DATE": "2026-06-30 00:00:00",
+        "OPERATE_INCOME": "3543003614.51",
+        "OPERATE_COST": "2121789913.14",
+        "OPERATE_PROFIT": "272931116.13",
+        "NETPROFIT": "190649964.52",
+        "PARENT_NETPROFIT": "190649964.52",
+        "RESEARCH_EXPENSE": "38718497.45",
+        "SALE_EXPENSE": "860084054.4",
+        "MANAGE_EXPENSE": "206027380.9",
+        "FINANCE_EXPENSE": "35688491.56"
+      },
+      "2025-12-31": {
+        "REPORT_DATE": "2025-12-31 00:00:00",
+        "OPERATE_INCOME": "6768959695.31",
+        "OPERATE_COST": "3892851376.09",
+        "OPERATE_PROFIT": "875569592.83",
+        "NETPROFIT": "673884445.59",
+        "PARENT_NETPROFIT": "673144046.69",
+        "RESEARCH_EXPENSE": "92349584.43",
+        "SALE_EXPENSE": "1527077269.81",
+        "MANAGE_EXPENSE": "395903410.14",
+        "FINANCE_EXPENSE": "-8577904.49"
+      },
+      "2025-06-30": {
+        "REPORT_DATE": "2025-06-30 00:00:00",
+        "OPERATE_INCOME": "3220679841.03",
+        "OPERATE_COST": "1842846768.74",
+        "OPERATE_PROFIT": "491730759.4",
+        "NETPROFIT": "378578362.94",
+        "PARENT_NETPROFIT": "378019131.69",
+        "RESEARCH_EXPENSE": "48634909.27",
+        "SALE_EXPENSE": "680260859.68",
+        "MANAGE_EXPENSE": "174223759.33",
+        "FINANCE_EXPENSE": "-12023923.99"
+      },
+      "2024-12-31": {
+        "REPORT_DATE": "2024-12-31 00:00:00",
+        "OPERATE_INCOME": "5244963836.08",
+        "OPERATE_COST": "3028052180.93",
+        "OPERATE_PROFIT": "810324099.12",
+        "NETPROFIT": "627342665.26",
+        "PARENT_NETPROFIT": "624721447.54",
+        "RESEARCH_EXPENSE": "85476187.37",
+        "SALE_EXPENSE": "1054657827.98",
+        "MANAGE_EXPENSE": "306556490.93",
+        "FINANCE_EXPENSE": "-35043646.01"
+      },
+      "2023-12-31": {
+        "REPORT_DATE": "2023-12-31 00:00:00",
+        "OPERATE_INCOME": "4326963076.35",
+        "OPERATE_COST": "2732908575.19",
+        "OPERATE_PROFIT": "526303583.45",
+        "NETPROFIT": "430338758.1",
+        "PARENT_NETPROFIT": "428842376.18",
+        "RESEARCH_EXPENSE": "73276704.58",
+        "SALE_EXPENSE": "720828275.45",
+        "MANAGE_EXPENSE": "249611456.9",
+        "FINANCE_EXPENSE": "-13213333.12"
+      }
+    },
+    "GBALANCE": {
+      "2026-06-30": {
+        "REPORT_DATE": "2026-06-30 00:00:00",
+        "SHARE_CAPITAL": 400472840,
+        "TOTAL_ASSETS": "6825113993.04",
+        "SHORT_LOAN": "900051577.78",
+        "LONG_LOAN": 24300000,
+        "LEASE_LIAB": "241066274.23"
+      },
+      "2025-12-31": {
+        "REPORT_DATE": "2025-12-31 00:00:00",
+        "SHARE_CAPITAL": 400472840,
+        "TOTAL_ASSETS": "5836699888.45",
+        "SHORT_LOAN": "301000619.44",
+        "LONG_LOAN": null,
+        "LEASE_LIAB": "55949545.71"
+      },
+      "2025-06-30": {
+        "REPORT_DATE": "2025-06-30 00:00:00",
+        "SHARE_CAPITAL": 400044500,
+        "TOTAL_ASSETS": "5233454215.53",
+        "SHORT_LOAN": 70000000,
+        "LONG_LOAN": null,
+        "LEASE_LIAB": "65397018.76"
+      },
+      "2024-12-31": {
+        "REPORT_DATE": "2024-12-31 00:00:00",
+        "SHARE_CAPITAL": 400044500,
+        "TOTAL_ASSETS": "5009510974.95",
+        "SHORT_LOAN": 110000000,
+        "LONG_LOAN": null,
+        "LEASE_LIAB": "64348562.22"
+      },
+      "2023-12-31": {
+        "REPORT_DATE": "2023-12-31 00:00:00",
+        "SHARE_CAPITAL": 400044500,
+        "TOTAL_ASSETS": "4143247172.12",
+        "SHORT_LOAN": null,
+        "LONG_LOAN": null,
+        "LEASE_LIAB": "20687087.39"
+      }
+    },
+    "GCASHFLOW": {
+      "2026-06-30": {
+        "REPORT_DATE": "2026-06-30 00:00:00",
+        "NETPROFIT": "190649964.52",
+        "FINANCE_EXPENSE": "4416167.54",
+        "NETCASH_OPERATE": "151131836.35",
+        "CONSTRUCT_LONG_ASSET": "440368567.5"
+      },
+      "2025-12-31": {
+        "REPORT_DATE": "2025-12-31 00:00:00",
+        "NETPROFIT": "673884445.59",
+        "FINANCE_EXPENSE": "12780551.58",
+        "NETCASH_OPERATE": "842381514.14",
+        "CONSTRUCT_LONG_ASSET": "698536439.88"
+      },
+      "2025-06-30": {
+        "REPORT_DATE": "2025-06-30 00:00:00",
+        "NETPROFIT": "378578362.94",
+        "FINANCE_EXPENSE": "365458.31",
+        "NETCASH_OPERATE": "350299391.69",
+        "CONSTRUCT_LONG_ASSET": "270312508.52"
+      },
+      "2024-12-31": {
+        "REPORT_DATE": "2024-12-31 00:00:00",
+        "NETPROFIT": "627342665.26",
+        "FINANCE_EXPENSE": "783908.78",
+        "NETCASH_OPERATE": "719614303.89",
+        "CONSTRUCT_LONG_ASSET": "680204067.51"
+      },
+      "2023-12-31": {
+        "REPORT_DATE": "2023-12-31 00:00:00",
+        "NETPROFIT": "430338758.1",
+        "FINANCE_EXPENSE": "5241419.71",
+        "NETCASH_OPERATE": "617149852.67",
+        "CONSTRUCT_LONG_ASSET": "196707442.19"
+      }
+    }
+  }
+}
