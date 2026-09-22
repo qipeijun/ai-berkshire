@@ -1,0 +1,145 @@
+{
+  "report": "reports/小米/小米-news-20260908.md",
+  "cutoff": "2026-09-08 10:55 Asia/Shanghai",
+  "verdict": {"status": "PASS", "pass_count": 12, "warn_count": 0, "fail_count": 0},
+  "sampling": {
+    "seed": 42,
+    "ratio": 0.15,
+    "total_extracted": 48,
+    "sampled": 8,
+    "valid": 4,
+    "excluded": [
+      {
+        "id": 2,
+        "reason": "将09-07日期的09误识别为价格"
+      },
+      {
+        "id": 8,
+        "reason": "将09-07日期的09误识别为指数"
+      },
+      {
+        "id": 7,
+        "reason": "将08-25日期的08误识别为指数"
+      },
+      {
+        "id": 41,
+        "reason": "将发布会日期09-07误识别为财务数值"
+      }
+    ]
+  },
+  "scope": "4项有效随机样本，另加8项关键价格、收益、产品定价和南向数据定向核验。PASS只验证数值一致性，不代表来源上游完全独立、事实穷尽或因果归因成立。指数08-27样本为单源。锁单为公司声明，非独立审计订单。盘中价未列入准出样本。",
+  "results": [
+    {
+      "id": 9,
+      "label": "恒科区间收益（内部计算）",
+      "reported_value": -1.33,
+      "unit": "%",
+      "fetched_value": -1.3256940116028182,
+      "fetched_source": "financial_rigor.calc: (4527.71/4588.54-1)*100；端点由Investing、东方财富及财联社核对"
+    },
+    {
+      "id": 16,
+      "label": "08-27恒科日涨跌",
+      "reported_value": -0.13,
+      "unit": "%",
+      "fetched_value": -0.13,
+      "fetched_source": "https://hk.investing.com/indices/hang-seng-tech-historical-data",
+      "note": "单源行情，不宣称独立双源"
+    },
+    {
+      "id": 15,
+      "label": "08-27小米日涨跌",
+      "reported_value": -3.44,
+      "unit": "%",
+      "fetched_value": -3.44,
+      "fetched_source": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "fetched_value2": -3.44,
+      "fetched_source2": "https://hk.investing.com/equities/xiaomi-historical-data"
+    },
+    {
+      "id": 18,
+      "label": "08-28小米日涨跌",
+      "reported_value": 1.24,
+      "unit": "%",
+      "fetched_value": 1.24,
+      "fetched_source": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "fetched_value2": 1.24,
+      "fetched_source2": "https://hk.investing.com/equities/xiaomi-historical-data"
+    },
+    {
+      "id": 101,
+      "label": "08-25小米基准收盘",
+      "reported_value": 27.76,
+      "unit": "HKD",
+      "fetched_value": 27.76,
+      "fetched_source": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "fetched_value2": 27.76,
+      "fetched_source2": "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=1810%3AHKG.HZ"
+    },
+    {
+      "id": 102,
+      "label": "09-07小米收盘",
+      "reported_value": 27.5,
+      "unit": "HKD",
+      "fetched_value": 27.5,
+      "fetched_source": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "fetched_value2": 27.5,
+      "fetched_source2": "https://hk.investing.com/equities/xiaomi-historical-data"
+    },
+    {
+      "id": 103,
+      "label": "小米区间主收益（内部计算）",
+      "reported_value": -0.94,
+      "unit": "%",
+      "fetched_value": -0.9365994236311348,
+      "fetched_source": "financial_rigor.calc: (27.50/27.76-1)*100；端点双渠道核对"
+    },
+    {
+      "id": 104,
+      "label": "小米区间首尾收益（内部计算）",
+      "reported_value": -3.37,
+      "unit": "%",
+      "fetched_value": -3.3731553056921992,
+      "fetched_source": "financial_rigor.calc: (27.50/28.46-1)*100"
+    },
+    {
+      "id": 105,
+      "label": "09-07南向净买入小米",
+      "reported_value": 13.84,
+      "unit": "亿港元",
+      "fetched_value": 13.84,
+      "fetched_source": "https://www.cls.cn/detail/2476072",
+      "fetched_value2": 13.839559,
+      "fetched_source2": "https://www.stcn.com/article/detail/4175332.html",
+      "note": "两家发布者引用交易所成交，底层同源；138395.59万港元换算"
+    },
+    {
+      "id": 106,
+      "label": "澎程入门售价",
+      "reported_value": 20.99,
+      "unit": "万元人民币",
+      "fetched_value": 20.99,
+      "fetched_source": "https://www.nbd.com.cn/articles/2026-09-07/4575132.html",
+      "fetched_value2": 20.99,
+      "fetched_source2": "https://www.ctdsb.net/c1476_202609/2851354.html"
+    },
+    {
+      "id": 107,
+      "label": "澎程最高配置售价",
+      "reported_value": 29.99,
+      "unit": "万元人民币",
+      "fetched_value": 29.99,
+      "fetched_source": "https://www.nbd.com.cn/articles/2026-09-07/4575132.html",
+      "fetched_value2": 29.99,
+      "fetched_source2": "https://www.ctdsb.net/c1476_202609/2851354.html"
+    },
+    {
+      "id": 108,
+      "label": "相对恒科收益差（内部计算）",
+      "reported_value": 0.39,
+      "unit": "百分点",
+      "fetched_value": 0.3890945879716834,
+      "fetched_source": "financial_rigor.calc: ((27.50/27.76-1)-(4527.71/4588.54-1))*100"
+    }
+  ]
+}

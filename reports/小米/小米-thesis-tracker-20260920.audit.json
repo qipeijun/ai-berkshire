@@ -1,0 +1,266 @@
+{
+  "report": "reports/小米/小米-thesis-tracker-20260920.md",
+  "report_sha256": "cb49261544632a7c36c4c5eb78e4f8181f84a8a5ee13cc53fedcc2082e10be40",
+  "checked_at": "2026-09-20 Asia/Shanghai",
+  "status": "研究版；抽样数值通过不等于全量发布审计",
+  "sample_seed": 42,
+  "extracted_count": 43,
+  "sample_count": 7,
+  "samples": [
+    {
+      "id": 41,
+      "label": "IFRS 归母利润",
+      "reported_value": 416.43389,
+      "unit": "",
+      "raw_text": "- IFRS 归母利润：416.43389 - 228.28726 + 141.85525 = **330.00188 亿元人民币**。期间利润和归母利润不混用。",
+      "line_number": 70
+    },
+    {
+      "id": 2,
+      "label": "股价，港元 · 最近可比估值：08-20报告",
+      "reported_value": 27.4408,
+      "unit": "",
+      "raw_text": "| 股价，港元 | 成本40；研究基线22.80非成本 | 27.44，08-19收盘 | **26.40，09-18收盘** |",
+      "line_number": 77
+    },
+    {
+      "id": 8,
+      "label": "市值，亿港元 · 最近可比估值：08-20报告",
+      "reported_value": 7068.1,
+      "unit": "",
+      "raw_text": "| 市值，亿港元 | 未重建历史买入日股本 | 7,068.1 | **6,800.51，估算** |",
+      "line_number": 80
+    },
+    {
+      "id": 9,
+      "label": "市值，亿港元 · 本次",
+      "reported_value": 6800.51,
+      "unit": "",
+      "raw_text": "| 市值，亿港元 | 未重建历史买入日股本 | 7,068.1 | **6,800.51，估算** |",
+      "line_number": 80
+    },
+    {
+      "id": 15,
+      "label": "当前价相对中性现值的安全边际 · 本次",
+      "reported_value": -7.72,
+      "unit": "%",
+      "raw_text": "| 当前价相对中性现值的安全边际 | 不追认买入时有安全边际 | 不足 | **约 -7.72%**，定义为1-价格/价值 |",
+      "line_number": 83
+    },
+    {
+      "id": 16,
+      "label": "相对历史40港元成本的价格收益 · 最近可比估值：08-20报告",
+      "reported_value": -31.4,
+      "unit": "%",
+      "raw_text": "| 相对历史40港元成本的价格收益 | 仅当成本未变 | -31.40% | **-34.00%**，不含费用和汇率 |",
+      "line_number": 84
+    },
+    {
+      "id": 18,
+      "label": "乐观 · EPS年增速",
+      "reported_value": 18.0,
+      "unit": "%",
+      "raw_text": "| 乐观 | +18% | 22倍 | 49.21 | 36.98 | +86.42% | +23.07% |",
+      "line_number": 96
+    }
+  ],
+  "parser_corrections": [
+    {
+      "id": 2,
+      "raw_extracted_value": 27.4408,
+      "corrected_value": 27.44,
+      "reason": "正则把中文逗号后的08-19日期拼入股价；人工按原行修正，并非财务值改动"
+    }
+  ],
+  "excluded_samples": [
+    {
+      "id": 18,
+      "label": "乐观 · EPS年增速",
+      "reported_value": 18.0,
+      "unit": "%",
+      "raw_text": "| 乐观 | +18% | 22倍 | 49.21 | 36.98 | +86.42% | +23.07% |",
+      "line_number": 96,
+      "reason": "18%为延续08-20模型的未来增长假设，非已发生事实；已核与旧报告一致，不纳入事实通过数"
+    }
+  ],
+  "checks": [
+    {
+      "id": 41,
+      "label": "FY2025归母利润（公式首项，非TTM结果）",
+      "reported_value": 416.43389,
+      "unit": "",
+      "raw_text": "- IFRS 归母利润：416.43389 - 228.28726 + 141.85525 = **330.00188 亿元人民币**。期间利润和归母利润不混用。",
+      "line_number": 70,
+      "fetched_value": 416.43389,
+      "fetched_source": "https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/03/24/5-35-03/25Q4%20EN%20AC%20Xiaomi.pdf p43",
+      "check_type": "一手源复核"
+    },
+    {
+      "id": 2,
+      "label": "股价，港元 · 最近可比估值：08-20报告",
+      "reported_value": 27.44,
+      "unit": "",
+      "raw_text": "| 股价，港元 | 成本40；研究基线22.80非成本 | 27.44，08-19收盘 | **26.40，09-18收盘** |",
+      "line_number": 77,
+      "fetched_value": 27.44,
+      "fetched_source": "https://jp.investing.com/equities/xiaomi-historical-data",
+      "fetched_value2": 27.44,
+      "fetched_source2": "https://wap.stockstar.com/detail/RB2026081900034476",
+      "check_type": "双渠道历史行情"
+    },
+    {
+      "id": 8,
+      "label": "市值，亿港元 · 最近可比估值：08-20报告",
+      "reported_value": 7068.1,
+      "unit": "",
+      "raw_text": "| 市值，亿港元 | 未重建历史买入日股本 | 7,068.1 | **6,800.51，估算** |",
+      "line_number": 80,
+      "fetched_value": 7068.1,
+      "fetched_source": "reports/小米/小米投资研究报告_20260820.md 历史表格一致性核验，未重新闭环历史股本",
+      "check_type": "历史记录一致性；非最新独立数据验证"
+    },
+    {
+      "id": 9,
+      "label": "市值，亿港元 · 本次",
+      "reported_value": 6800.51,
+      "unit": "",
+      "raw_text": "| 市值，亿港元 | 未重建历史买入日股本 | 7,068.1 | **6,800.51，估算** |",
+      "line_number": 80,
+      "fetched_value": 6800.512616568,
+      "fetched_source": "https://qt.gtimg.cn/q=hk01810 2026/09/18 16:08:41；Decimal价格乘股本",
+      "fetched_value2": 6794.5,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/1810/statistics/",
+      "check_type": "报价估算；股本存在约0.08%差异"
+    },
+    {
+      "id": 15,
+      "label": "当前价相对中性现值的安全边际 · 本次",
+      "reported_value": -7.72,
+      "unit": "%",
+      "raw_text": "| 当前价相对中性现值的安全边际 | 不追认买入时有安全边际 | 不足 | **约 -7.72%**，定义为1-价格/价值 |",
+      "line_number": 83,
+      "fetched_value": -7.724078845089346,
+      "fetched_source": "Decimal复算 1-price/(调整后EPS×18)；中性增速与折现率同为10%",
+      "check_type": "模型算术，不是独立估值证明"
+    },
+    {
+      "id": 16,
+      "label": "相对历史40港元成本的价格收益 · 最近可比估值：08-20报告",
+      "reported_value": -31.4,
+      "unit": "%",
+      "raw_text": "| 相对历史40港元成本的价格收益 | 仅当成本未变 | -31.40% | **-34.00%**，不含费用和汇率 |",
+      "line_number": 84,
+      "fetched_value": -31.4,
+      "fetched_source": "Decimal复算；40港元为未重新确认的历史成本",
+      "check_type": "条件算术，不是账户核实"
+    },
+    {
+      "id": 101,
+      "label": "09-18收盘价",
+      "reported_value": 26.4,
+      "unit": "HKD",
+      "fetched_value": 26.4,
+      "fetched_source": "https://stockanalysis.com/quote/hkg/1810/history/",
+      "check_type": "定向复核，来源限制见报告",
+      "fetched_value2": 26.4,
+      "fetched_source2": "https://qt.gtimg.cn/q=hk01810"
+    },
+    {
+      "id": 102,
+      "label": "H1调整后利润",
+      "reported_value": 122.912,
+      "unit": "亿元",
+      "fetched_value": 122.912,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+      "check_type": "定向复核，来源限制见报告",
+      "fetched_value2": 122.91,
+      "fetched_source2": "https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html"
+    },
+    {
+      "id": 103,
+      "label": "Q2手机毛利率",
+      "reported_value": 8.5,
+      "unit": "%",
+      "fetched_value": 8.5,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+      "check_type": "定向复核，来源限制见报告",
+      "fetched_value2": 8.5,
+      "fetched_source2": "https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html"
+    },
+    {
+      "id": 104,
+      "label": "Q2汽车AI分部经营亏损",
+      "reported_value": 26,
+      "unit": "亿元",
+      "fetched_value": 26,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c",
+      "check_type": "定向复核，来源限制见报告",
+      "fetched_value2": 26,
+      "fetched_source2": "https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html"
+    },
+    {
+      "id": 105,
+      "label": "H1 FCF代理值",
+      "reported_value": -48.44366,
+      "unit": "亿元",
+      "fetched_value": -48.44366,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p28/p34；经营现金流减资本开支",
+      "check_type": "定向复核，来源限制见报告"
+    },
+    {
+      "id": 106,
+      "label": "Q2 FCF代理值",
+      "reported_value": 2.217,
+      "unit": "亿元",
+      "fetched_value": 2.217,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p27/p28",
+      "check_type": "定向复核，来源限制见报告"
+    },
+    {
+      "id": 107,
+      "label": "Q2互联网收入同比",
+      "reported_value": -0.6,
+      "unit": "%",
+      "fetched_value": -0.6,
+      "fetched_source": "https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p10",
+      "check_type": "定向复核，来源限制见报告"
+    },
+    {
+      "id": 108,
+      "label": "08月汽车交付",
+      "reported_value": 30153,
+      "unit": "辆",
+      "fetched_value": 30153,
+      "fetched_source": "https://cnevpost.com/2026/09/08/xiaomi-delivers-30153-cars-aug-2026/",
+      "check_type": "定向复核，来源限制见报告"
+    },
+    {
+      "id": 109,
+      "label": "调整后TTM PE代理",
+      "reported_value": 19.39,
+      "unit": "倍",
+      "fetched_value": 19.390334192116082,
+      "fetched_source": "官方利润+腾讯股本+换汇；Decimal",
+      "check_type": "定向复核，来源限制见报告"
+    },
+    {
+      "id": 110,
+      "label": "已知项机械评分",
+      "reported_value": 1,
+      "unit": "分",
+      "fetched_value": 1,
+      "fetched_source": "八假设逐项判定；两待核不计通过",
+      "check_type": "定向复核，来源限制见报告"
+    }
+  ],
+  "tool_output": "======================================================================\n\u001b[1m报告数据抽检 — 准出/打回判决\u001b[0m\n报告：/Users/qipeijun/code/githubProject/ai-berkshire/reports/小米/小米-thesis-tracker-20260920.md\n======================================================================\n\n  \u001b[92m✅ 通过\u001b[0m [41] FY2025归母利润（公式首项，非TTM结果）              报告:       416.43 \n                                                    https://ir.mi.com/system/files-encrypted/nasdaq_kms/assets/2026/03/24/5-35-03/25Q4%20EN%20AC%20Xiaomi.pdf p43: 416.43 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [ 2] 股价，港元 · 最近可比估值：08-20报告               报告:        27.44 \n                                                    https://jp.investing.com/equities/xiaomi-historical-data: 27.44 (偏差 0.00%)  |  https://wap.stockstar.com/detail/RB2026081900034476: 27.44 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [ 8] 市值，亿港元 · 最近可比估值：08-20报告              报告:      7068.10 \n                                                    reports/小米/小米投资研究报告_20260820.md 历史表格一致性核验，未重新闭环历史股本: 7068.10 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [ 9] 市值，亿港元 · 本次                          报告:      6800.51 \n                                                    https://qt.gtimg.cn/q=hk01810 2026/09/18 16:08:41；Decimal价格乘股本: 6800.51 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1810/statistics/: 6794.50 (偏差 0.09%)\n  \u001b[92m✅ 通过\u001b[0m [15] 当前价相对中性现值的安全边际 · 本次                  报告:        -7.72 %\n                                                    Decimal复算 1-price/(调整后EPS×18)；中性增速与折现率同为10%: -7.72 (偏差 0.05%)\n  \u001b[92m✅ 通过\u001b[0m [16] 相对历史40港元成本的价格收益 · 最近可比估值：08-20报告     报告:       -31.40 %\n                                                    Decimal复算；40港元为未重新确认的历史成本: -31.40 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [101] 09-18收盘价                             报告:        26.40 HKD\n                                                    https://stockanalysis.com/quote/hkg/1810/history/: 26.40 (偏差 0.00%)  |  https://qt.gtimg.cn/q=hk01810: 26.40 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [102] H1调整后利润                              报告:       122.91 亿元\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c: 122.91 (偏差 0.00%)  |  https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html: 122.91 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [103] Q2手机毛利率                              报告:         8.50 %\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c: 8.50 (偏差 0.00%)  |  https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html: 8.50 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [104] Q2汽车AI分部经营亏损                         报告:        26.00 亿元\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c: 26.00 (偏差 0.00%)  |  https://m.21jingji.com/article/20260819/herald/dc0d9a7025a1a3eaa0905458b7cd3911_zaker.html: 26.00 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [105] H1 FCF代理值                            报告:       -48.44 亿元\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p28/p34；经营现金流减资本开支: -48.44 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [106] Q2 FCF代理值                            报告:         2.22 亿元\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p27/p28: 2.22 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [107] Q2互联网收入同比                            报告:        -0.60 %\n                                                    https://ir.mi.com/static-files/4a85fc36-8a6d-4c24-b45b-b18d5d162e6c p10: -0.60 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [108] 08月汽车交付                              报告:     30153.00 辆\n                                                    https://cnevpost.com/2026/09/08/xiaomi-delivers-30153-cars-aug-2026/: 30153.00 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [109] 调整后TTM PE代理                          报告:        19.39 倍\n                                                    官方利润+腾讯股本+换汇；Decimal: 19.39 (偏差 0.00%)\n  \u001b[92m✅ 通过\u001b[0m [110] 已知项机械评分                              报告:         1.00 分\n                                                    八假设逐项判定；两待核不计通过: 1.00 (偏差 0.00%)\n\n----------------------------------------------------------------------\n  抽检总数: 16  |  通过: \u001b[92m16\u001b[0m  |  警告: \u001b[93m0\u001b[0m  |  不通过: \u001b[91m0\u001b[0m\n\n\u001b[1m\u001b[92m【准出】所有抽检数据通过，报告可发布。\u001b[0m\n======================================================================\n{\n  \"verdict\": \"PASS\",\n  \"pass_count\": 16,\n  \"warn_count\": 0,\n  \"fail_count\": 0,\n  \"total\": 16,\n  \"fail_items\": [],\n  \"warn_items\": []\n}\n",
+  "unresolved": [
+    "华为IoT统一份额",
+    "原论文净现金定义及全部资金限制",
+    "九月公司公告与内部人交易全量核对",
+    "印度最新裁决和开庭日",
+    "股本官方桥接及潜在摊薄",
+    "汽车精确月交付尚缺CPCA原表"
+  ],
+  "source_independence": "公司IR及HKEX镜像同源；媒体独立编辑但底层数字为公司披露；模型和历史一致性不计为独立外部事实证据"
+}
