@@ -1,0 +1,211 @@
+{
+  "report": "reports/腾讯/腾讯-news-20260909.md",
+  "cutoff": "2026-09-09 09:36 Asia/Shanghai; prices through 2026-09-08 close",
+  "verdict": {
+    "verdict": "PASS",
+    "pass_count": 18,
+    "warn_count": 0,
+    "fail_count": 0,
+    "total": 18,
+    "fail_items": [],
+    "warn_items": []
+  },
+  "sampling": {
+    "seed": 42,
+    "ratio": 0.15,
+    "total_extracted": 16,
+    "sampled": 3,
+    "valid_sample_ids": [
+      4,
+      1,
+      12
+    ],
+    "excluded": [],
+    "targeted_added": 15
+  },
+  "scope": "三项有效随机样本加十五项关键定向核验。计算项为内部算术，非外部独立数据源。回购和南向媒体底层均来自交易所，财报媒体数字亦源自公司披露；不宣称所有上游完全独立。恒科08-28、09-08南向及B站交易仅单一原始或整理来源。PASS仅说明已列数值在工具容差内一致，不认证因果、资料穷尽或投资价值。",
+  "results": [
+    {
+      "id": 4,
+      "label": "完整窗口恒科收益",
+      "reported_value": -3.7,
+      "unit": "%",
+      "fetched_value": -3.70286307188481,
+      "fetched_source": "financial_rigor.calc: (4454.85/4626.15-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 1,
+      "label": "腾讯08-26收盘",
+      "reported_value": 445.4,
+      "unit": "港元",
+      "fetched_value": 445.4,
+      "fetched_source": "https://cn.investing.com/equities/tencent-holdings-hk-historical-data",
+      "classification": "source_fact",
+      "fetched_value2": 445.4,
+      "fetched_source2": "https://stockinvest.us/stock-price/0700.HK"
+    },
+    {
+      "id": 12,
+      "label": "B站腾讯二级配售安排约数",
+      "reported_value": 4,
+      "unit": "亿美元",
+      "fetched_value": 4,
+      "fetched_source": "https://www.sec.gov/Archives/edgar/data/1723690/000119312526383611/d12965dex992.htm",
+      "classification": "source_fact"
+    },
+    {
+      "id": 101,
+      "label": "腾讯09-08收盘",
+      "reported_value": 435.4,
+      "unit": "港元",
+      "fetched_value": 435.4,
+      "fetched_source": "https://cn.investing.com/equities/tencent-holdings-hk-historical-data",
+      "classification": "source_fact",
+      "fetched_value2": 435.4,
+      "fetched_source2": "https://www.news.cn/20260908/ab15225de5fb438682d964d59e94a7b1/c.html"
+    },
+    {
+      "id": 102,
+      "label": "腾讯08-28收盘",
+      "reported_value": 455.2,
+      "unit": "港元",
+      "fetched_value": 455.2,
+      "fetched_source": "https://cn.investing.com/equities/tencent-holdings-hk-historical-data",
+      "classification": "source_fact",
+      "fetched_value2": 455.2,
+      "fetched_source2": "https://stockinvest.us/stock-price/0700.HK"
+    },
+    {
+      "id": 103,
+      "label": "恒科08-26收盘",
+      "reported_value": 4626.15,
+      "unit": "点",
+      "fetched_value": 4626.15,
+      "fetched_source": "https://br.investing.com/indices/hang-seng-tech-historical-data",
+      "classification": "source_fact",
+      "fetched_value2": 4626.15,
+      "fetched_source2": "https://www.oanda.jp/lab-education/market_news/mn_1030959_202608262049/"
+    },
+    {
+      "id": 104,
+      "label": "恒科09-08收盘",
+      "reported_value": 4454.85,
+      "unit": "点",
+      "fetched_value": 4454.85,
+      "fetched_source": "https://www.news.cn/20260908/ab15225de5fb438682d964d59e94a7b1/c.html",
+      "classification": "source_fact",
+      "fetched_value2": 4454.85,
+      "fetched_source2": "https://finance.eastmoney.com/a/202609083868054442.html"
+    },
+    {
+      "id": 105,
+      "label": "恒科08-28收盘（单源）",
+      "reported_value": 4605.15,
+      "unit": "点",
+      "fetched_value": 4605.15,
+      "fetched_source": "https://br.investing.com/indices/hang-seng-tech-historical-data",
+      "classification": "source_fact"
+    },
+    {
+      "id": 106,
+      "label": "腾讯完整窗口收益",
+      "reported_value": -2.25,
+      "unit": "%",
+      "fetched_value": -2.24517287831163,
+      "fetched_source": "financial_rigor.calc: (435.4/445.4-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 107,
+      "label": "腾讯高收盘后收益",
+      "reported_value": -4.35,
+      "unit": "%",
+      "fetched_value": -4.349736379613356,
+      "fetched_source": "financial_rigor.calc: (435.4/455.2-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 108,
+      "label": "恒科08-28后收益",
+      "reported_value": -3.26,
+      "unit": "%",
+      "fetched_value": -3.263737337545991,
+      "fetched_source": "financial_rigor.calc: (4454.85/4605.15-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 109,
+      "label": "腾讯完整窗口相对恒科",
+      "reported_value": 1.46,
+      "unit": "百分点",
+      "fetched_value": 1.45769019357318,
+      "fetched_source": "financial_rigor.calc: (435.4/445.4-4454.85/4626.15)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 110,
+      "label": "腾讯09-04南向净卖出",
+      "reported_value": 21.02,
+      "unit": "亿港元",
+      "fetched_value": 21.02,
+      "fetched_source": "https://stock.stockstar.com/IG2026090400041408.shtml",
+      "classification": "source_fact",
+      "fetched_value2": 21.02,
+      "fetched_source2": "https://stock.jrj.com.cn/2026/09/04194858360037.shtml"
+    },
+    {
+      "id": 111,
+      "label": "腾讯09-08南向净买入（单源整理）",
+      "reported_value": 4870.65,
+      "unit": "万港元",
+      "fetched_value": 4870.65,
+      "fetched_source": "https://www.stcn.com/article/detail/4176889.html",
+      "classification": "source_fact"
+    },
+    {
+      "id": 112,
+      "label": "窗外Q2资本开支约数",
+      "reported_value": 528,
+      "unit": "亿元人民币",
+      "fetched_value": 528,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/08/腾讯公布二零二六年第二季业绩.pdf",
+      "classification": "source_fact",
+      "fetched_value2": 528,
+      "fetched_source2": "https://finance.sina.com.cn/stock/t/2026-08-12/doc-inimzytn5306358.shtml"
+    },
+    {
+      "id": 113,
+      "label": "窗外Q2自由现金流约数",
+      "reported_value": -138,
+      "unit": "亿元人民币",
+      "fetched_value": -138,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/08/腾讯公布二零二六年第二季业绩.pdf",
+      "classification": "source_fact",
+      "fetched_value2": -138,
+      "fetched_source2": "https://finance.sina.com.cn/stock/t/2026-08-12/doc-inimzytn5306358.shtml"
+    },
+    {
+      "id": 114,
+      "label": "窗外Q2剔除预付款FCF约数",
+      "reported_value": 376,
+      "unit": "亿元人民币",
+      "fetched_value": 376,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/08/腾讯公布二零二六年第二季业绩.pdf",
+      "classification": "source_fact",
+      "fetched_value2": 376,
+      "fetched_source2": "https://finance.sina.com.cn/stock/t/2026-08-12/doc-inimzytn5306358.shtml"
+    },
+    {
+      "id": 115,
+      "label": "08-31回购约数",
+      "reported_value": 1,
+      "unit": "亿港元",
+      "fetched_value": 1.005488,
+      "fetched_source": "https://www.stcn.com/article/detail/4165956.html",
+      "classification": "source_fact",
+      "fetched_value2": 1.005488,
+      "fetched_source2": "https://www.etnet.com.hk/www/tc/stocks/realtime/quote_ca_buyback.php?code=700&page=1"
+    }
+  ]
+}

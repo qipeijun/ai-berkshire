@@ -1,0 +1,418 @@
+{
+  "report": "reports/腾讯/腾讯-thesis-tracker-20260909.md",
+  "cutoff": "2026-09-09 09:52 Asia/Shanghai; prices 2026-09-08 close",
+  "verdict": {
+    "verdict": "PASS",
+    "pass_count": 29,
+    "warn_count": 0,
+    "fail_count": 0,
+    "total": 29,
+    "fail_items": [],
+    "warn_items": []
+  },
+  "sampling": {
+    "seed": 42,
+    "ratio": 0.15,
+    "total_extracted": 42,
+    "sampled": 7,
+    "valid_sample_ids": [
+      2,
+      8,
+      9,
+      16,
+      15,
+      18,
+      41
+    ],
+    "excluded": [],
+    "targeted_added": 22
+  },
+  "scope": "有效随机样本加定向数值复核。历史443仅核对旧文档，计算项不算独立外部证据；2025现金回报分类仍待原表桥接，部分KPI单一公司源，Prosus及制裁名单未穷尽。PASS不代表红线已排除、评级客观或建议被认证。",
+  "calculations": {
+    "profit_q2_growth": {
+      "expr": "(68415/63052-1)*100",
+      "value": 8.505677853200533
+    },
+    "profit_h1_growth": {
+      "expr": "(136320/124381-1)*100",
+      "value": 9.598732925446818
+    },
+    "gross_margin": {
+      "expr": "118433/204785*100",
+      "value": 57.83284908562639
+    },
+    "health": {
+      "expr": "10-2*2-2*1",
+      "value": 4.0
+    },
+    "ifrs_ttm_profit": {
+      "expr": "224842-103449+114115",
+      "value": 235508.0
+    },
+    "nonifrs_ttm_profit": {
+      "expr": "259626-124381+136320",
+      "value": 271565.0
+    },
+    "ifrs_eps": {
+      "expr": "24.153-11.126+12.417",
+      "value": 25.444
+    },
+    "nonifrs_eps": {
+      "expr": "27.877-13.377+14.799",
+      "value": 29.299
+    },
+    "ifrs_eps_hkd": {
+      "expr": "(24.153-11.126+12.417)/0.8558",
+      "value": 29.731245618135077
+    },
+    "nonifrs_eps_hkd": {
+      "expr": "(27.877-13.377+14.799)/0.8558",
+      "value": 34.23580275765366
+    },
+    "market_cap_hkd": {
+      "expr": "435.4*9103160691",
+      "value": 3963516164861.4
+    },
+    "market_cap_cny": {
+      "expr": "435.4*9103160691*0.8558",
+      "value": 3391977133888.386
+    },
+    "bvps_hkd": {
+      "expr": "1135853000000/9103160691/0.8558",
+      "value": 145.80003834904193
+    },
+    "ifrs_pe": {
+      "expr": "435.4/((24.153-11.126+12.417)/0.8558)",
+      "value": 14.644526017921711
+    },
+    "nonifrs_pe": {
+      "expr": "435.4/((27.877-13.377+14.799)/0.8558)",
+      "value": 12.717680466910132
+    },
+    "pb": {
+      "expr": "435.4/(1135853000000/9103160691/0.8558)",
+      "value": 2.9862817934084656
+    },
+    "divyield": {
+      "expr": "5.3/435.4*100",
+      "value": 1.2172714745062012
+    },
+    "h1_cashreturn": {
+      "expr": "(22257+41595)/136320*100",
+      "value": 46.83978873239437
+    },
+    "fy25_broad_cashreturn": {
+      "expr": "(79135+37535)/259626*100",
+      "value": 44.93771810219315
+    },
+    "price_from_original": {
+      "expr": "(435.4/496-1)*100",
+      "value": -12.217741935483872
+    },
+    "price_from_last": {
+      "expr": "(435.4/443-1)*100",
+      "value": -1.7155756207674955
+    },
+    "anchor_low": {
+      "expr": "(27.877-13.377+14.799)/0.8558*12",
+      "value": 410.8296330918439
+    },
+    "anchor_high": {
+      "expr": "(27.877-13.377+14.799)/0.8558*15",
+      "value": 513.5370413648048
+    },
+    "stress_price": {
+      "expr": "(27.877-13.377+14.799)/0.8558*0.85*10",
+      "value": 291.00432344005606
+    },
+    "stress_return": {
+      "expr": "(((27.877-13.377+14.799)/0.8558*0.85*10)/435.4-1)*100",
+      "value": -33.163912852536505
+    },
+    "old_15x": {
+      "expr": "(27.877-13.377+14.799)/0.8558*15",
+      "value": 513.5370413648048
+    },
+    "old_18x": {
+      "expr": "(27.877-13.377+14.799)/0.8558*18",
+      "value": 616.2444496377659
+    }
+  },
+  "results": [
+    {
+      "id": 2,
+      "label": "2025H1 IFRS归母利润",
+      "reported_value": 103449,
+      "unit": "百万元人民币",
+      "fetched_value": 103449,
+      "fetched_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200297_c.pdf",
+      "classification": "source_fact"
+    },
+    {
+      "id": 8,
+      "label": "TTM Non-IFRS归母利润",
+      "reported_value": 271565,
+      "unit": "百万元人民币",
+      "fetched_value": 271565.0,
+      "fetched_source": "financial_rigor.calc: 259626-124381+136320",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 9,
+      "label": "2025全年 IFRS稀释EPS",
+      "reported_value": 24.153,
+      "unit": "人民币元",
+      "fetched_value": 24.153,
+      "fetched_source": "https://en.prnasia.com/releases/apac/tencent-announces-2025-annual-and-fourth-quarter-results-525781.shtml",
+      "classification": "source_fact",
+      "fetched_value2": 24.15,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/（页面四舍五入）"
+    },
+    {
+      "id": 16,
+      "label": "TTM Non-IFRS合成稀释EPS",
+      "reported_value": 29.299,
+      "unit": "人民币元",
+      "fetched_value": 29.299,
+      "fetched_source": "financial_rigor.calc: 27.877-13.377+14.799",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 15,
+      "label": "2026H1 Non-IFRS稀释EPS",
+      "reported_value": 14.799,
+      "unit": "人民币元",
+      "fetched_value": 14.799,
+      "fetched_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200297_c.pdf",
+      "classification": "source_fact"
+    },
+    {
+      "id": 18,
+      "label": "七月tracker记录的价格",
+      "reported_value": 443,
+      "unit": "港元",
+      "fetched_value": 443,
+      "fetched_source": "reports/腾讯/腾讯-thesis-tracker-20260728.md（仅历史文档一致性）",
+      "classification": "historical_record"
+    },
+    {
+      "id": 41,
+      "label": "压力情景价格收益",
+      "reported_value": -33.16,
+      "unit": "%",
+      "fetched_value": -33.163912852536505,
+      "fetched_source": "financial_rigor.calc: (((27.877-13.377+14.799)/0.8558*0.85*10)/435.4-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 101,
+      "label": "9月8日收盘",
+      "reported_value": 435.4,
+      "unit": "港元",
+      "fetched_value": 435.4,
+      "fetched_source": "https://www.news.cn/20260908/ab15225de5fb438682d964d59e94a7b1/c.html",
+      "classification": "source_fact",
+      "fetched_value2": 435.4,
+      "fetched_source2": "https://cn.investing.com/equities/tencent-holdings-hk-historical-data"
+    },
+    {
+      "id": 102,
+      "label": "已发行股数",
+      "reported_value": 9103160691,
+      "unit": "股",
+      "fetched_value": 9103160691,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/09/e_Next-Day-Disclosure-Return_20260908.pdf",
+      "classification": "source_fact",
+      "fetched_value2": 9103000000,
+      "fetched_source2": "https://www.lixinger.com/equity/company/detail/hk/00700/700/fundamental/valuation/pb（91.03亿股四舍五入）"
+    },
+    {
+      "id": 103,
+      "label": "HKD兑CNY换算",
+      "reported_value": 0.8558,
+      "unit": "人民币/港元",
+      "fetched_value": 0.8558,
+      "fetched_source": "https://www.investing.com/currencies/hkd-cny-historical-data",
+      "classification": "source_fact",
+      "fetched_value2": 0.8557,
+      "fetched_source2": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=10&From=HKD&To=CNY（同日不同时点）"
+    },
+    {
+      "id": 104,
+      "label": "归母权益",
+      "reported_value": 1135853,
+      "unit": "百万元人民币",
+      "fetched_value": 1135853,
+      "fetched_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200297_c.pdf",
+      "classification": "source_fact",
+      "fetched_value2": 1135853,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/balance-sheet/"
+    },
+    {
+      "id": 105,
+      "label": "Non-IFRS PE",
+      "reported_value": 12.72,
+      "unit": "倍",
+      "fetched_value": 12.717680466910132,
+      "fetched_source": "financial_rigor.calc: 435.4/((27.877-13.377+14.799)/0.8558)",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 106,
+      "label": "IFRS PE",
+      "reported_value": 14.64,
+      "unit": "倍",
+      "fetched_value": 14.644526017921711,
+      "fetched_source": "financial_rigor.calc: 435.4/((24.153-11.126+12.417)/0.8558)",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 107,
+      "label": "PB",
+      "reported_value": 2.99,
+      "unit": "倍",
+      "fetched_value": 2.9862817934084656,
+      "fetched_source": "financial_rigor.calc: 435.4/(1135853000000/9103160691/0.8558)",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 108,
+      "label": "历史毛股息率",
+      "reported_value": 1.22,
+      "unit": "%",
+      "fetched_value": 1.2172714745062012,
+      "fetched_source": "financial_rigor.calc: 5.3/435.4*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 109,
+      "label": "毛利率",
+      "reported_value": 57.83,
+      "unit": "%",
+      "fetched_value": 57.83284908562639,
+      "fetched_source": "financial_rigor.calc: 118433/204785*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 110,
+      "label": "Q2 Non-IFRS利润同比",
+      "reported_value": 8.51,
+      "unit": "%",
+      "fetched_value": 8.505677853200533,
+      "fetched_source": "financial_rigor.calc: (68415/63052-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 111,
+      "label": "H1 Non-IFRS利润同比",
+      "reported_value": 9.6,
+      "unit": "%",
+      "fetched_value": 9.598732925446818,
+      "fetched_source": "financial_rigor.calc: (136320/124381-1)*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 112,
+      "label": "H1现金回报比率",
+      "reported_value": 46.84,
+      "unit": "%",
+      "fetched_value": 46.83978873239437,
+      "fetched_source": "financial_rigor.calc: (22257+41595)/136320*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 113,
+      "label": "H1回购现金支付",
+      "reported_value": 22257,
+      "unit": "百万元人民币",
+      "fetched_value": 22257,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+      "classification": "source_fact"
+    },
+    {
+      "id": 114,
+      "label": "H1股息现金支付",
+      "reported_value": 41595,
+      "unit": "百万元人民币",
+      "fetched_value": 41595,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf",
+      "classification": "source_fact"
+    },
+    {
+      "id": 115,
+      "label": "2025第三方分类回报比率",
+      "reported_value": 44.94,
+      "unit": "%",
+      "fetched_value": 44.93771810219315,
+      "fetched_source": "financial_rigor.calc: (79135+37535)/259626*100",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 116,
+      "label": "谨慎盈利锚下沿",
+      "reported_value": 410.83,
+      "unit": "港元",
+      "fetched_value": 410.8296330918439,
+      "fetched_source": "financial_rigor.calc: (27.877-13.377+14.799)/0.8558*12",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 117,
+      "label": "谨慎盈利锚上沿",
+      "reported_value": 513.54,
+      "unit": "港元",
+      "fetched_value": 513.5370413648048,
+      "fetched_source": "financial_rigor.calc: (27.877-13.377+14.799)/0.8558*15",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 118,
+      "label": "压力情景价格",
+      "reported_value": 291,
+      "unit": "港元",
+      "fetched_value": 291.00432344005606,
+      "fetched_source": "financial_rigor.calc: (27.877-13.377+14.799)/0.8558*0.85*10",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 119,
+      "label": "原倍数上沿",
+      "reported_value": 616.24,
+      "unit": "港元",
+      "fetched_value": 616.2444496377659,
+      "fetched_source": "financial_rigor.calc: (27.877-13.377+14.799)/0.8558*18",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 120,
+      "label": "机械健康度",
+      "reported_value": 4,
+      "unit": "分",
+      "fetched_value": 4.0,
+      "fetched_source": "financial_rigor.calc: 10-2*2-2*1",
+      "classification": "model_arithmetic"
+    },
+    {
+      "id": 121,
+      "label": "已发行口径市值",
+      "reported_value": 3963516164861.4,
+      "unit": "港元",
+      "fetched_value": 3963516164861.4,
+      "fetched_source": "financial_rigor.calc: 435.4*9103160691",
+      "classification": "model_arithmetic",
+      "fetched_value2": 3960000000000,
+      "fetched_source2": "理杏仁四舍五入3.96万亿港元"
+    },
+    {
+      "id": 122,
+      "label": "当日回购金额",
+      "reported_value": 100442863,
+      "unit": "港元",
+      "fetched_value": 100442863,
+      "fetched_source": "https://www.tencent.com/wp-content/uploads/2026/09/e_Next-Day-Disclosure-Return_20260908.pdf",
+      "classification": "source_fact",
+      "fetched_value2": 100442900,
+      "fetched_source2": "https://www.stcn.com/article/detail/4177011.html（万元小数四舍五入）"
+    }
+  ]
+}

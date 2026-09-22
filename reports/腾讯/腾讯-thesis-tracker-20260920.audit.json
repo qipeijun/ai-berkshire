@@ -1,0 +1,316 @@
+{
+  "report": "reports/腾讯/腾讯-thesis-tracker-20260920.md",
+  "sha256": "18f7227c021da259f8ecc00706b74d370f5dbb57d3a4336b881298ccea6a3ea3",
+  "cutoff": "2026-09-20",
+  "sample_seed": 42,
+  "sample_ratio": 0.15,
+  "sample_count": 10,
+  "excluded_nonfinancial": [
+    {
+      "id": 2,
+      "label": "Non-IFRS 归母净利润年增速维持 10%—15%+ · 本次证据",
+      "reported_value": 2.0,
+      "unit": "",
+      "raw_text": "| Non-IFRS 归母净利润年增速维持 10%—15%+ | 弱化 | Q2 同比约 +9%，上半年约 +10%；未取得 Q3 数据 | 弱化，全年待验证；不等于连续季度利润下降 |",
+      "line_number": 20,
+      "reason": "抽取器把季度编号或引用编号当成财务值；人工排除，不计通过"
+    },
+    {
+      "id": 8,
+      "label": "微信 MAU 任一季度环比负增长 · 证据与边界",
+      "reported_value": 3.0,
+      "unit": "",
+      "raw_text": "| 微信 MAU 任一季度环比负增长 | 未触发（截至 Q2） | 中报显示环比增长；Q3 未知 |",
+      "line_number": 35,
+      "reason": "抽取器把季度编号或引用编号当成财务值；人工排除，不计通过"
+    },
+    {
+      "id": 7,
+      "label": "微信 MAU 任一季度环比负增长 · 本次结果",
+      "reported_value": 2.0,
+      "unit": "",
+      "raw_text": "| 微信 MAU 任一季度环比负增长 | 未触发（截至 Q2） | 中报显示环比增长；Q3 未知 |",
+      "line_number": 35,
+      "reason": "抽取器把季度编号或引用编号当成财务值；人工排除，不计通过"
+    },
+    {
+      "id": 9,
+      "label": "月均版号少于 50 个或重大游戏限制 · 证据与边界",
+      "reported_value": 4.0,
+      "unit": "",
+      "raw_text": "| 月均版号少于 50 个或重大游戏限制 | 未发现触发 | [版署目录][4]列出八月审批；[中国青年网][5]报道国产 209 款。九月尚未结束，不用未发布推断停发 |",
+      "line_number": 36,
+      "reason": "抽取器把季度编号或引用编号当成财务值；人工排除，不计通过"
+    },
+    {
+      "id": 15,
+      "label": "单季毛利率低于 48% · 证据与边界",
+      "reported_value": 2.0,
+      "unit": "",
+      "raw_text": "| 单季毛利率低于 48% | 未触发（截至 Q2） | Q2 毛利率高于阈值 |",
+      "line_number": 42,
+      "reason": "抽取器把季度编号或引用编号当成财务值；人工排除，不计通过"
+    }
+  ],
+  "checks": [
+    {
+      "id": 18,
+      "label": "IFRS归母净利润 · 加：2026H1",
+      "reported_value": 114115.0,
+      "unit": "",
+      "raw_text": "| IFRS归母净利润 | 224842 | 103449 | 114115 | 235508 |",
+      "line_number": 64,
+      "fetched_value": 114115,
+      "fetched_source": "腾讯中报 原表"
+    },
+    {
+      "id": 16,
+      "label": "IFRS归母净利润 · 2025全年",
+      "reported_value": 224842.0,
+      "unit": "",
+      "raw_text": "| IFRS归母净利润 | 224842 | 103449 | 114115 | 235508 |",
+      "line_number": 64,
+      "fetched_value": 224842,
+      "fetched_source": "腾讯2025年度新闻稿原表",
+      "fetched_value2": 224842,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    {
+      "id": 41,
+      "label": "Non-IFRS TTM PE（倍） · 原论文研究锚点",
+      "reported_value": 15.3,
+      "unit": "",
+      "raw_text": "| Non-IFRS TTM PE（倍） | 约15.3 | 12.72 | 12.21 |",
+      "line_number": 76,
+      "fetched_value": 15.3,
+      "fetched_source": "reports/腾讯/腾讯-thesis.md 历史锚点转录，不是当前估值"
+    },
+    {
+      "id": 48,
+      "label": "历史毛股息率 · 上次检查",
+      "reported_value": 1.22,
+      "unit": "%",
+      "raw_text": "| 历史毛股息率 | 约1.07% | 1.22% | 1.26% |",
+      "line_number": 78,
+      "fetched_value": 1.2172714745062012,
+      "fetched_source": "financial_rigor 算式 5.3/435.4*100"
+    },
+    {
+      "id": 59,
+      "label": "压力情景 · 明示假设",
+      "reported_value": 15.0,
+      "unit": "%",
+      "raw_text": "| 压力情景 | EPS下降15%，10倍 | 291.69 | 价格下行约 -30.39%，不含股息 |",
+      "line_number": 87,
+      "fetched_value": 15,
+      "fetched_source": "分析假设，不是预测事实"
+    },
+    {
+      "id": 105,
+      "label": "9月18日收盘价",
+      "reported_value": 419,
+      "fetched_value": 419.0,
+      "fetched_source": "https://cn.investing.com/equities/tencent-holdings-hk-historical-data",
+      "fetched_value2": 419,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/",
+      "unit": ""
+    },
+    {
+      "id": 106,
+      "label": "每港元兑人民币",
+      "reported_value": 0.8538,
+      "fetched_value": 0.8538,
+      "fetched_source": "https://hk.investing.com/currencies/hkd-cny-historical-data",
+      "fetched_value2": 0.854,
+      "fetched_source2": "https://www.exchange-rates.org/exchange-rate-history/hkd-cny",
+      "unit": ""
+    },
+    {
+      "id": 107,
+      "label": "Non-IFRS TTM利润",
+      "reported_value": 271565,
+      "fetched_value": 271565.0,
+      "fetched_source": "腾讯年度及中期原表；financial_rigor 跨期复算",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 108,
+      "label": "IFRS TTM利润",
+      "reported_value": 235508,
+      "fetched_value": 235508.0,
+      "fetched_source": "腾讯年度及中期原表；financial_rigor 跨期复算",
+      "fetched_value2": 235508,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/",
+      "unit": ""
+    },
+    {
+      "id": 109,
+      "label": "Non-IFRS TTM EPS",
+      "reported_value": 29.299,
+      "fetched_value": 29.299,
+      "fetched_source": "腾讯年度及中期原表；合成EPS近似值",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 110,
+      "label": "IFRS TTM EPS",
+      "reported_value": 25.444,
+      "fetched_value": 25.444,
+      "fetched_source": "腾讯年度及中期原表；合成EPS近似值",
+      "fetched_value2": 25.45,
+      "fetched_source2": "https://stockanalysis.com/quote/hkg/0700/financials/",
+      "unit": ""
+    },
+    {
+      "id": 111,
+      "label": "已发行股份",
+      "reported_value": 9095085993,
+      "fetched_value": 9095085993.0,
+      "fetched_source": "腾讯9月18日翌日披露表，单一原始来源",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 112,
+      "label": "市值万亿港元",
+      "reported_value": 3.8108,
+      "fetched_value": 3.810841031067,
+      "fetched_source": "financial_rigor price*shares",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 113,
+      "label": "IFRS PE",
+      "reported_value": 14.06,
+      "fetched_value": 14.059982707121522,
+      "fetched_source": "financial_rigor",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 114,
+      "label": "Non-IFRS PE",
+      "reported_value": 12.21,
+      "fetched_value": 12.210048124509369,
+      "fetched_source": "financial_rigor verify-valuation",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 115,
+      "label": "PB",
+      "reported_value": 2.86,
+      "fetched_value": 2.8645397532295154,
+      "fetched_source": "中报归母权益+官方股本；financial_rigor",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 116,
+      "label": "股息率",
+      "reported_value": 1.26,
+      "fetched_value": 1.2649164677804297,
+      "fetched_source": "financial_rigor verify-valuation",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 117,
+      "label": "区间下沿",
+      "reported_value": 411.79,
+      "fetched_value": 411.79198875614895,
+      "fetched_source": "financial_rigor 分析假设12倍",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 118,
+      "label": "区间上沿",
+      "reported_value": 514.74,
+      "fetched_value": 514.7399859451863,
+      "fetched_source": "financial_rigor 分析假设15倍",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 119,
+      "label": "压力价格",
+      "reported_value": 291.69,
+      "fetched_value": 291.6859920356055,
+      "fetched_source": "financial_rigor 分析假设",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 120,
+      "label": "压力价格跌幅",
+      "reported_value": -30.39,
+      "fetched_value": -30.38520476477195,
+      "fetched_source": "financial_rigor 分析假设",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 121,
+      "label": "上半年现金回报比例",
+      "reported_value": 46.84,
+      "fetched_value": 46.83978873239437,
+      "fetched_source": "腾讯中报现金流量表及Non-IFRS利润；financial_rigor",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 122,
+      "label": "Q2毛利率",
+      "reported_value": 57.83,
+      "fetched_value": 57.832849085626385,
+      "fetched_source": "腾讯中报；南方日报交叉原始收入及毛利",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 123,
+      "label": "健康度",
+      "reported_value": 4,
+      "fetched_value": 4.0,
+      "fetched_source": "thesis-tracker公式；红线未决，暂定",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    },
+    {
+      "id": 124,
+      "label": "相对上次价格变化",
+      "reported_value": -3.77,
+      "fetched_value": -3.7666513550757923,
+      "fetched_source": "financial_rigor",
+      "fetched_value2": null,
+      "fetched_source2": "",
+      "unit": ""
+    }
+  ],
+  "publication_status": "REVIEW_REQUIRED",
+  "unresolved": [
+    "回购金额/股数所得均价低于披露最低价，尚未核实原因，未计通过",
+    "Prosus年度腾讯售股数量未闭环",
+    "制裁/出口管制各实体别名全名单匹配未完成"
+  ],
+  "scope": "数值工具PASS不能覆盖原始披露矛盾、红线完整性或投资判断；历史锚点与情景参数仅核转录及算式"
+}

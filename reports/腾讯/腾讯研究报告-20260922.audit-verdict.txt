@@ -1,0 +1,43 @@
+======================================================================
+[1m报告数据抽检 — 准出/打回判决[0m
+报告：reports/腾讯/腾讯研究报告-20260922.md
+======================================================================
+
+  ⬜ [ 4] 风险与治理 · 评分（五星制）                             3.50   →  [未提供核验值，跳过]
+  [92m✅ 通过[0m [ 7] 收入 · 2025上半年                         报告:    364526.00 
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf p2: 364526.00 (偏差 0.00%)
+  [92m✅ 通过[0m [ 9] 毛利 · 2024全年                          报告:    349246.00 
+                                                    https://static.www.tencent.com/uploads/2026/03/18/f78591955e05a6db4e31e128bdaefefa.pdf 2024 comparative gross profit; financial analyst primary-source verification: 349246.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/ gross profit FY2024; classification differs: 349298.00 (偏差 0.01%)
+  [92m✅ 通过[0m [15] IFRS经营利润 · 2025上半年                   报告:    117670.00 
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf p2: 117670.00 (偏差 0.00%)
+  [92m✅ 通过[0m [32] 资本开支（公司定义） · 2026上半年                 报告:     84720.00 
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf p14: 84720.00 (偏差 0.00%)
+  [92m✅ 通过[0m [29] 资本开支（公司定义） · 2024全年                  报告:     76760.00 
+                                                    https://static.www.tencent.com/uploads/2026/03/18/f78591955e05a6db4e31e128bdaefefa.pdf company-definition capital expenditure; financial analyst primary-source verification: 76760.00 (偏差 0.00%)
+  [92m✅ 通过[0m [36] 其他 · 收入（人民币亿元）                       报告:        25.20 
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf p6: RMB2520m / 100: 25.20 (偏差 0.00%)
+  [92m✅ 通过[0m [44] 2025经营利润 · 外部来源                      报告:    245628.00 
+                                                    https://stockanalysis.com/quote/hkg/0700/financials/ operating income FY2025; only verifies transcription, not equivalence to IFRS official figure: 245628.00 (偏差 0.00%)
+  [92m✅ 通过[0m [48] 总市值 · 外部来源                           报告:         3.87 万亿
+                                                    https://stockanalysis.com/quote/hkg/0700/statistics/ financial analyst captured market cap 3869331 million HKD; asynchronous snapshot, rejected for valuation: 3.87 (偏差 0.00%)
+  [92m✅ 通过[0m [58] 中性 · 相对430的价格回报                      报告:        42.60 %
+                                                    Decimal recomputation; EPS 29.299/.8534, growth .06, terminal PE15, horizon3; assumptions not verified forecasts: 42.64 (偏差 0.09%)
+  [92m✅ 通过[0m [62] 悲观 · 三年后股价（港元）                       报告:       294.40 
+                                                    Decimal recomputation; EPS 29.299/.8534, growth -.05, terminal PE10, horizon3; assumptions not verified forecasts: 294.35 (偏差 0.02%)
+
+----------------------------------------------------------------------
+  抽检总数: 10  |  通过: [92m10[0m  |  警告: [93m0[0m  |  不通过: [91m0[0m
+
+[1m[92m【准出】所有抽检数据通过，报告可发布。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 10,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 10,
+  "fail_items": [],
+  "warn_items": []
+}
+
+主分析师发布状态：REVIEW_REQUIRED。机械PASS仅覆盖输入数字；未全量满足独立双源，已披露的数据商差异、回购矛盾、Prosus及部分名单缺口仍保留。
