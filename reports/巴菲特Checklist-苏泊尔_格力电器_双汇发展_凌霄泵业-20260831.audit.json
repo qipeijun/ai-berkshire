@@ -1,0 +1,187 @@
+{
+  "report": "reports/巴菲特Checklist-苏泊尔_格力电器_双汇发展_凌霄泵业-20260831.md",
+  "audit_date": "2026-08-31",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 112,
+  "sample_count": 17,
+  "verified_count": 17,
+  "skipped_count": 0,
+  "passed": 17,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "准出仅表示固定种子抽样中的可核验数字可由一手披露、独立第二来源、内部分类计数或工具复算，不证明主观评分、估值假设、价格纪律或投资结论正确。",
+  "results": [
+    {
+      "id": 4,
+      "label": "苏泊尔回看股息率",
+      "reported_value": 6.53,
+      "unit": "%",
+      "fetched_value": 6.53,
+      "fetched_source": "2025年报每股股息2.63元及40.30元收盘价复算",
+      "fetched_value2": 6.53,
+      "fetched_source2": "financial_rigor.py verify-valuation"
+    },
+    {
+      "id": 5,
+      "label": "苏泊尔中性三年目标",
+      "reported_value": 38.0,
+      "unit": "元",
+      "fetched_value": 38.0,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 38.0,
+      "fetched_source2": "TTM EPS 2.5308乘15倍PE复算"
+    },
+    {
+      "id": 12,
+      "label": "格力Checklist通过关数",
+      "reported_value": 2,
+      "unit": "关",
+      "fetched_value": 2,
+      "fetched_source": "报告六关评分逐项计数",
+      "fetched_value2": 2,
+      "fetched_source2": "能力圈和好生意两项通过"
+    },
+    {
+      "id": 15,
+      "label": "双汇FCF Yield",
+      "reported_value": 6.17,
+      "unit": "%",
+      "fetched_value": 6.17,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 6.17,
+      "fetched_source2": "TTM FCF 53.156亿元除市值861.661亿元"
+    },
+    {
+      "id": 18,
+      "label": "双汇Checklist通过关数",
+      "reported_value": 3,
+      "unit": "关",
+      "fetched_value": 3,
+      "fetched_source": "报告六关评分逐项计数",
+      "fetched_value2": 3,
+      "fetched_source2": "能力圈好生意护城河三项通过"
+    },
+    {
+      "id": 14,
+      "label": "双汇PE TTM",
+      "reported_value": 16.94,
+      "unit": "倍",
+      "fetched_value": 16.94,
+      "fetched_source": "financial_rigor.py按24.87元及EPS1.4683复算",
+      "fetched_value2": 16.94,
+      "fetched_source2": "市值861.661亿元除TTM净利50.8704亿元"
+    },
+    {
+      "id": 28,
+      "label": "苏泊尔2023 FCF",
+      "reported_value": 18.97,
+      "unit": "亿元",
+      "fetched_value": 18.97,
+      "fetched_source": "2023年报CFO减购建长期资产现金",
+      "fetched_value2": 18.97,
+      "fetched_source2": "2025年报三年现金流序列复算"
+    },
+    {
+      "id": 29,
+      "label": "苏泊尔2026H1收入同比",
+      "reported_value": -0.59,
+      "unit": "%",
+      "fetched_value": -0.59,
+      "fetched_source": "2026半年报",
+      "fetched_value2": -0.59,
+      "fetched_source2": "SEB 2026H1中国业务口径交叉"
+    },
+    {
+      "id": 30,
+      "label": "苏泊尔PE TTM",
+      "reported_value": 15.92,
+      "unit": "倍",
+      "fetched_value": 15.92,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 15.92,
+      "fetched_source2": "中财网动态PE近似交叉"
+    },
+    {
+      "id": 32,
+      "label": "苏泊尔SEB持股",
+      "reported_value": 83.35,
+      "unit": "%",
+      "fetched_value": 83.35,
+      "fetched_source": "苏泊尔2026半年报股东表",
+      "fetched_value2": 83.35,
+      "fetched_source2": "苏泊尔2025年报控制关系"
+    },
+    {
+      "id": 36,
+      "label": "苏泊尔乐观目标价",
+      "reported_value": 51.2,
+      "unit": "元",
+      "fetched_value": 51.2,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 51.2,
+      "fetched_source2": "EPS2.5308按4%增长三年乘18倍PE复算"
+    },
+    {
+      "id": 55,
+      "label": "格力乐观三年EPS",
+      "reported_value": 5.6,
+      "unit": "元",
+      "fetched_value": 5.6,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 5.6,
+      "fetched_source2": "EPS4.975按4%增长三年复算"
+    },
+    {
+      "id": 70,
+      "label": "双汇2025毛利率",
+      "reported_value": 18.05,
+      "unit": "%",
+      "fetched_value": 18.05,
+      "fetched_source": "双汇2025年报",
+      "fetched_value2": 18.05,
+      "fetched_source2": "营业成本与收入复算"
+    },
+    {
+      "id": 76,
+      "label": "双汇乐观EPS年增速",
+      "reported_value": 5.0,
+      "unit": "%",
+      "fetched_value": 5.0,
+      "fetched_source": "报告情景假设表",
+      "fetched_value2": 5.0,
+      "fetched_source2": "financial_rigor.py输入参数"
+    },
+    {
+      "id": 82,
+      "label": "双汇中性目标价",
+      "reported_value": 22.7,
+      "unit": "元",
+      "fetched_value": 22.7,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 22.7,
+      "fetched_source2": "EPS1.4683按1%增长三年乘15倍PE复算"
+    },
+    {
+      "id": 87,
+      "label": "双汇悲观目标价",
+      "reported_value": 13.0,
+      "unit": "元",
+      "fetched_value": 13.0,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 13.0,
+      "fetched_source2": "EPS1.4683按负4%增长三年乘10倍PE复算"
+    },
+    {
+      "id": 95,
+      "label": "凌霄五年平均ROE",
+      "reported_value": 20.02,
+      "unit": "%",
+      "fetched_value": 20.02,
+      "fetched_source": "2021至2025年报ROE算术平均",
+      "fetched_value2": 20.02,
+      "fetched_source2": "东方财富年度财务序列交叉"
+    }
+  ]
+}

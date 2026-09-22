@@ -1,0 +1,179 @@
+{
+  "report": "reports/巴菲特Checklist-格力电器_美的集团-20260827.md",
+  "audit_date": "2026-08-27",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 123,
+  "sample_count": 19,
+  "verified_count": 13,
+  "skipped_count": 6,
+  "passed": 13,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "准出仅表示固定种子抽样中的可核验数字可由一手披露、独立第二来源或工具复算，不证明主观评分、情景假设、价格带或投资结论正确。",
+  "skipped": [
+    {
+      "id": 14,
+      "label": "P/FCF · 判断",
+      "reason": "提取器把2025年份误识别为P/FCF数值"
+    },
+    {
+      "id": 28,
+      "label": "最新收入增速 · 美的集团",
+      "reason": "提取器把2026Q1中的年份误识别为收入增速"
+    },
+    {
+      "id": 29,
+      "label": "最新归母净利增速 · 格力电器",
+      "reason": "提取器把2026H1中的年份误识别为利润增速"
+    },
+    {
+      "id": 30,
+      "label": "最新归母净利增速 · 美的集团",
+      "reason": "提取器把2026Q1中的年份误识别为利润增速"
+    },
+    {
+      "id": 32,
+      "label": "最新扣非净利增速 · 美的集团",
+      "reason": "提取器把2026Q1中的年份误识别为扣非利润增速"
+    },
+    {
+      "id": 65,
+      "label": "五年平均ROE · 参考标准",
+      "reason": "15%是Checklist参考阈值，不是公司外部事实"
+    }
+  ],
+  "results": [
+    {
+      "id": 4,
+      "label": "当前价 · 美的集团",
+      "reported_value": 85.43,
+      "unit": "元",
+      "fetched_value": 85.43,
+      "fetched_source": "腾讯行情2026-08-27 11:30快照",
+      "fetched_value2": 85.43,
+      "fetched_source2": "新浪行情2026-08-27 11:30快照"
+    },
+    {
+      "id": 5,
+      "label": "总市值 · 格力电器",
+      "reported_value": 2192.95,
+      "unit": "亿元",
+      "fetched_value": 2192.9503476015,
+      "fetched_source": "东方财富行情接口f116",
+      "fetched_value2": 2192.9503476015,
+      "fetched_source2": "financial_rigor.py按39.15元和56.01405741亿股复算"
+    },
+    {
+      "id": 12,
+      "label": "P/FCF · 格力电器",
+      "reported_value": 4.91,
+      "unit": "倍",
+      "fetched_value": 4.909685187849387,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 4.909685187849387,
+      "fetched_source2": "2025年报FCF与总股本独立复算"
+    },
+    {
+      "id": 15,
+      "label": "FCF Yield · 格力电器",
+      "reported_value": 20.37,
+      "unit": "%",
+      "fetched_value": 20.367904697328157,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 20.367904697328157,
+      "fetched_source2": "2025年报FCF除以市值复算"
+    },
+    {
+      "id": 18,
+      "label": "回看股息率 · 美的集团",
+      "reported_value": 5.03,
+      "unit": "%",
+      "fetched_value": 5.0333606461430405,
+      "fetched_source": "financial_rigor.py按4.30元DPS和85.43元股价复算",
+      "fetched_value2": 5.0333606461430405,
+      "fetched_source2": "美的2025年报DPS与新浪行情独立复算"
+    },
+    {
+      "id": 36,
+      "label": "格力2023 · CFO",
+      "reported_value": 563.98,
+      "unit": "亿元",
+      "fetched_value": 563.98,
+      "fetched_source": "格力电器2023年年度报告",
+      "fetched_value2": 563.98,
+      "fetched_source2": "东方财富2023年现金流数据"
+    },
+    {
+      "id": 55,
+      "label": "美的2024 · 归母净利润",
+      "reported_value": 385.37,
+      "unit": "亿元",
+      "fetched_value": 385.37237,
+      "fetched_source": "美的集团2025年年度报告同期数",
+      "fetched_value2": 385.37,
+      "fetched_source2": "东方财富2024年财务数据"
+    },
+    {
+      "id": 70,
+      "label": "格力有息负债 / 2025净利",
+      "reported_value": 2.92,
+      "unit": "年",
+      "fetched_value": 2.9181704729561506,
+      "fetched_source": "格力2026H1有息负债与2025年报归母净利复算",
+      "fetched_value2": 2.9181704729561506,
+      "fetched_source2": "financial_rigor.py calc复算"
+    },
+    {
+      "id": 76,
+      "label": "格力FCF Yield · 数值",
+      "reported_value": 20.37,
+      "unit": "%",
+      "fetched_value": 20.367904697328157,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 20.367904697328157,
+      "fetched_source2": "2025年报FCF除以市值复算"
+    },
+    {
+      "id": 82,
+      "label": "格力乐观情景 · 较现价",
+      "reported_value": 57.2,
+      "unit": "%",
+      "fetched_value": 57.244035769826795,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 57.244035769826795,
+      "fetched_source2": "EPS增长与目标PE公式独立复算"
+    },
+    {
+      "id": 87,
+      "label": "格力中性情景 · 较现价",
+      "reported_value": -4.3,
+      "unit": "%",
+      "fetched_value": -4.313715167975197,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": -4.313715167975197,
+      "fetched_source2": "EPS增长与目标PE公式独立复算"
+    },
+    {
+      "id": 95,
+      "label": "美的2023 FCF",
+      "reported_value": 515.89,
+      "unit": "亿元",
+      "fetched_value": 515.89,
+      "fetched_source": "美的集团2024年年度报告现金流量表",
+      "fetched_value2": 515.89,
+      "fetched_source2": "CFO减购建长期资产现金支出复算"
+    },
+    {
+      "id": 115,
+      "label": "美的中性情景 · 较现价",
+      "reported_value": 6.8,
+      "unit": "%",
+      "fetched_value": 6.797645338924219,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 6.797645338924219,
+      "fetched_source2": "EPS增长与目标PE公式独立复算"
+    }
+  ]
+}

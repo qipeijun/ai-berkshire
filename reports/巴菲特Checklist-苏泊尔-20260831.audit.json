@@ -1,0 +1,89 @@
+{
+  "report": "reports/巴菲特Checklist-苏泊尔-20260831.md",
+  "audit_date": "2026-08-31",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 59,
+  "sample_count": 9,
+  "verified_count": 5,
+  "skipped_count": 4,
+  "passed": 5,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "准出仅表示固定种子抽样中的可核验数字可由一手披露、独立第二来源或工具复算，不证明主观评分、情景假设、价格纪律或投资结论正确。",
+  "skipped": [
+    {
+      "id": 9,
+      "label": "PE TTM · 截止时间",
+      "reason": "提取器把2026年份误识别为PE数值"
+    },
+    {
+      "id": 16,
+      "label": "FCF Yield · 截止时间",
+      "reason": "提取器把2026年份误识别为FCF Yield数值"
+    },
+    {
+      "id": 18,
+      "label": "回看股息率 · 截止时间",
+      "reason": "提取器把2025年份误识别为股息率数值"
+    },
+    {
+      "id": 41,
+      "label": "资本配置 · 评估",
+      "reason": "提取器把2025年份误识别为资本配置数值"
+    }
+  ],
+  "results": [
+    {
+      "id": 2,
+      "label": "收盘价 · 数值",
+      "reported_value": 40.3,
+      "unit": "元",
+      "fetched_value": 40.3,
+      "fetched_source": "Investing历史行情2026-08-28",
+      "fetched_value2": 40.3,
+      "fetched_source2": "打板客历史行情2026-08-28"
+    },
+    {
+      "id": 8,
+      "label": "PE TTM · 数值",
+      "reported_value": 15.92,
+      "unit": "倍",
+      "fetched_value": 15.92,
+      "fetched_source": "financial_rigor.py按40.30元和TTM EPS 2.530811复算",
+      "fetched_value2": 15.92,
+      "fetched_source2": "中财网2026-08-28行情"
+    },
+    {
+      "id": 15,
+      "label": "FCF Yield · 数值",
+      "reported_value": 7.49,
+      "unit": "%",
+      "fetched_value": 7.49,
+      "fetched_source": "financial_rigor.py verify-valuation",
+      "fetched_value2": 7.49,
+      "fetched_source2": "年报及半年报TTM FCF除以市值复算"
+    },
+    {
+      "id": 48,
+      "label": "乐观 · 较现价",
+      "reported_value": 27.2,
+      "unit": "%",
+      "fetched_value": 27.2,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 27.2,
+      "fetched_source2": "EPS增长与目标PE公式复算"
+    },
+    {
+      "id": 56,
+      "label": "悲观 · 目标价",
+      "reported_value": 22.4,
+      "unit": "元",
+      "fetched_value": 22.4,
+      "fetched_source": "financial_rigor.py three-scenario",
+      "fetched_value2": 22.4,
+      "fetched_source2": "EPS增长与目标PE公式复算"
+    }
+  ]
+}

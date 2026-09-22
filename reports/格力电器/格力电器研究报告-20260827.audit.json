@@ -1,0 +1,264 @@
+{
+  "report": "reports/格力电器/格力电器研究报告-20260827.md",
+  "audit_date": "2026-08-27",
+  "sample_ratio": 0.15,
+  "seed": 42,
+  "total_data_points": 169,
+  "sample_count": 26,
+  "verified_count": 17,
+  "skipped_count": 9,
+  "passed": 17,
+  "warnings": 0,
+  "failed": 0,
+  "verdict": "PASS",
+  "scope_note": "准出仅表示固定种子抽样中的可核验数字可由一手披露、第二来源或工具复算，不证明主观评分、情景假设、价格带或投资结论正确。",
+  "skipped": [
+    {"id": 29, "label": "毛利率 · 观察", "reason": "提取器把观察文字中的数字误识别为毛利率"},
+    {"id": 63, "label": "智能装备 · 证据判断", "reason": "提取器把2026H1中的年份误识别为数值"},
+    {"id": 71, "label": "渠道与服务 · 支持证据", "reason": "提取器把超2万门店中的2误识别为独立数值"},
+    {"id": 72, "label": "现金分红 · 事实", "reason": "提取器把2025年份误识别为分红数值"},
+    {"id": 161, "label": "行业与竞争评分", "reason": "主观研究评分，不是外部事实"},
+    {"id": 115, "label": "TTM归母净利润 · 口径", "reason": "提取器把计算口径中的2025年份误识别为利润"},
+    {"id": 164, "label": "综合评分", "reason": "主观研究评分，不是外部事实"},
+    {"id": 152, "label": "空仓、激进型 · 观察区间", "reason": "研究观察价格带，不是外部事实"},
+    {"id": 167, "label": "商务部", "reason": "提取器把来源标题中的2025年份误识别为数据"}
+  ],
+  "results": [
+    {
+      "id": 7,
+      "label": "营业总收入 · 2026H1",
+      "reported_value": 896.73,
+      "unit": "亿元",
+      "fetched_value": 896.7295542792,
+      "fetched_source": "格力电器2026年半年度报告合并利润表",
+      "fetched_value2": 896.73,
+      "fetched_source2": "东方财富2026H1财务数据"
+    },
+    {
+      "id": 9,
+      "label": "归母净利润 · 2025",
+      "reported_value": 290.03,
+      "unit": "亿元",
+      "fetched_value": 290.0310341166,
+      "fetched_source": "格力电器2025年年度报告",
+      "fetched_value2": 290.0310341166,
+      "fetched_source2": "东方财富2025年财务数据"
+    },
+    {
+      "id": 8,
+      "label": "归母净利润 · 2024",
+      "reported_value": 321.85,
+      "unit": "亿元",
+      "fetched_value": 321.8457037228,
+      "fetched_source": "格力电器2025年年度报告同期数",
+      "fetched_value2": 321.85,
+      "fetched_source2": "东方财富2024年财务数据"
+    },
+    {
+      "id": 23,
+      "label": "简化自由现金流 · 2024",
+      "reported_value": 260.69,
+      "unit": "亿元",
+      "fetched_value": 260.6946322944,
+      "fetched_source": "2025年报同期CFO减资本开支",
+      "fetched_value2": 260.6946322944,
+      "fetched_source2": "financial_rigor.py复算"
+    },
+    {
+      "id": 24,
+      "label": "简化自由现金流 · 2025",
+      "reported_value": 446.66,
+      "unit": "亿元",
+      "fetched_value": 446.6580368592,
+      "fetched_source": "2025年报CFO减资本开支",
+      "fetched_value2": 446.6580368592,
+      "fetched_source2": "financial_rigor.py复算"
+    },
+    {
+      "id": 29,
+      "label": "毛利率 · 观察",
+      "reported_value": 1.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：提取器误报"
+    },
+    {
+      "id": 27,
+      "label": "毛利率 · 2025",
+      "reported_value": 29.81,
+      "unit": "%",
+      "fetched_value": 29.81,
+      "fetched_source": "格力电器2025年年度报告",
+      "fetched_value2": 29.81,
+      "fetched_source2": "东方财富2025年财务指标"
+    },
+    {
+      "id": 36,
+      "label": "加权ROE · 2026H1",
+      "reported_value": 8.68,
+      "unit": "%",
+      "fetched_value": 8.68,
+      "fetched_source": "格力电器2026年半年度报告",
+      "fetched_value2": 8.68,
+      "fetched_source2": "东方财富2026H1财务指标"
+    },
+    {
+      "id": 51,
+      "label": "外销主营 · 占营业收入",
+      "reported_value": 14.26,
+      "unit": "%",
+      "fetched_value": 14.26,
+      "fetched_source": "格力电器2026年半年度报告收入构成",
+      "fetched_value2": 14.2554,
+      "fetched_source2": "外销主营收入除以营业收入复算"
+    },
+    {
+      "id": 56,
+      "label": "2025归母净利润 · 东方财富",
+      "reported_value": 290.031,
+      "unit": "亿元",
+      "fetched_value": 290.0310341166,
+      "fetched_source": "东方财富2025年财务数据",
+      "fetched_value2": 290.0310341166,
+      "fetched_source2": "格力电器2025年年度报告"
+    },
+    {
+      "id": 58,
+      "label": "2026H1营业收入 · 东方财富",
+      "reported_value": 893.9752,
+      "unit": "亿元",
+      "fetched_value": 893.9752250121,
+      "fetched_source": "东方财富2026H1财务数据",
+      "fetched_value2": 893.9752250121,
+      "fetched_source2": "格力电器2026年半年度报告"
+    },
+    {
+      "id": 57,
+      "label": "2026H1营业收入 · 公司/巨潮",
+      "reported_value": 893.9752,
+      "unit": "亿元",
+      "fetched_value": 893.9752250121,
+      "fetched_source": "格力电器2026年半年度报告",
+      "fetched_value2": 893.9752250121,
+      "fetched_source2": "东方财富2026H1财务数据"
+    },
+    {
+      "id": 60,
+      "label": "2026H1归母净利润 · 东方财富",
+      "reported_value": 132.7759,
+      "unit": "亿元",
+      "fetched_value": 132.7759088257,
+      "fetched_source": "东方财富2026H1财务数据",
+      "fetched_value2": 132.7759088257,
+      "fetched_source2": "格力电器2026年半年度报告"
+    },
+    {
+      "id": 63,
+      "label": "智能装备 · 证据判断",
+      "reported_value": 2026.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：年份误报"
+    },
+    {
+      "id": 71,
+      "label": "渠道与服务 · 支持证据",
+      "reported_value": 2.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：门店数量文本误报"
+    },
+    {
+      "id": 72,
+      "label": "现金分红 · 事实",
+      "reported_value": 2025.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：年份误报"
+    },
+    {
+      "id": 161,
+      "label": "行业与竞争评分",
+      "reported_value": 3.5,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：主观评分"
+    },
+    {
+      "id": 108,
+      "label": "受限货币资金 · 数值",
+      "reported_value": 139.63,
+      "unit": "亿元",
+      "fetched_value": 139.6304490863,
+      "fetched_source": "格力电器2026年半年度报告受限资产表",
+      "fetched_value2": 139.63,
+      "fetched_source2": "半年报附注金额换算"
+    },
+    {
+      "id": 109,
+      "label": "有息负债 · 数值",
+      "reported_value": 846.36,
+      "unit": "亿元",
+      "fetched_value": 846.3554541092,
+      "fetched_source": "格力电器2026年半年度报告利率风险表",
+      "fetched_value2": 846.36,
+      "fetched_source2": "有息负债分项加总"
+    },
+    {
+      "id": 115,
+      "label": "TTM归母净利润 · 口径",
+      "reported_value": 2025.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：年份误报"
+    },
+    {
+      "id": 130,
+      "label": "乐观 · 第3年目标价",
+      "reported_value": 61.56,
+      "unit": "元",
+      "fetched_value": 61.5610400039,
+      "fetched_source": "financial_rigor.py三情景及calc复算"
+    },
+    {
+      "id": 140,
+      "label": "中性 · 年化回报",
+      "reported_value": 4.7,
+      "unit": "%",
+      "fetched_value": 4.6848125417,
+      "fetched_source": "financial_rigor.py按目标价、三年股息和现价复算"
+    },
+    {
+      "id": 144,
+      "label": "悲观 · 第3年目标价",
+      "reported_value": 23.24,
+      "unit": "元",
+      "fetched_value": 23.2449158065,
+      "fetched_source": "financial_rigor.py三情景及calc复算"
+    },
+    {
+      "id": 164,
+      "label": "综合评分",
+      "reported_value": 3.5,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：主观评分"
+    },
+    {
+      "id": 152,
+      "label": "空仓、激进型 · 观察区间",
+      "reported_value": 34.0,
+      "unit": "元",
+      "fetched_value": null,
+      "fetched_source": "跳过：研究观察价格带"
+    },
+    {
+      "id": 167,
+      "label": "商务部",
+      "reported_value": 2025.0,
+      "unit": "",
+      "fetched_value": null,
+      "fetched_source": "跳过：来源标题年份误报"
+    }
+  ]
+}
