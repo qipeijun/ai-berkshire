@@ -1,0 +1,58 @@
+======================================================================
+报告数据抽检 — 准出/打回判决
+报告：比亚迪研究报告-20260911
+======================================================================
+
+  ✅ 通过 [ 4] 营业收入 · 2024                          报告:      7771.02 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 7771.02 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/lirunbiao/: 7771.02 (偏差 0.00%)
+  ✅ 通过 [ 5] 营业收入 · 2025                          报告:      8039.65 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 8039.65 (偏差 0.00%)  |  https://finance.eastmoney.com/a/202603283687762480.html: 8039.65 (偏差 0.00%)
+  ✅ 通过 [15] 综合毛利率 · 2025                         报告:        17.74 %
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf 收入及成本计算: 17.74 (偏差 0.03%)  |  https://www.yingman.com/stock/002594/lirunbiao/ 同口径计算: 17.74 (偏差 0.03%)
+  ✅ 通过 [14] 综合毛利率 · 2024                         报告:        19.44 %
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf 计算: 19.44 (偏差 0.01%)  |  https://www.yingman.com/stock/002594/lirunbiao/ 计算: 19.44 (偏差 0.01%)
+  ✅ 通过 [12] 综合毛利率 · 2022                         报告:        17.04 %
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2024/0326/2024032602309_c.pdf 计算: 17.04 (偏差 0.02%)  |  https://www.yingman.com/stock/002594/lirunbiao/ 计算: 17.04 (偏差 0.02%)
+  ✅ 通过 [18] 营业利润率 · 2023                         报告:         6.33 %
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2024/0326/2024032602309_c.pdf 计算: 6.33 (偏差 0.06%)  |  https://www.yingman.com/stock/002594/lirunbiao/ 计算: 6.33 (偏差 0.06%)
+  ✅ 通过 [29] 经营现金流 · 2024                         报告:      1334.54 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 1334.54 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/: 1334.54 (偏差 0.00%)
+  ✅ 通过 [28] 经营现金流 · 2023                         报告:      1697.25 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2024/0326/2024032602309_c.pdf: 1697.25 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/: 1697.25 (偏差 0.00%)
+  ✅ 通过 [30] 经营现金流 · 2025                         报告:       591.36 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 591.36 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/: 591.36 (偏差 0.00%)
+  ✅ 通过 [32] 现金资本开支 · 2022                        报告:       974.57 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2024/0326/2024032602309_c.pdf: 974.57 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/: 974.57 (偏差 0.00%)
+  ✅ 通过 [36] 简化自由现金流 · 2021                       报告:       281.23 
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0329/2022032902340_c.pdf CFO-Capex: 281.23 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/ CFO-Capex: 281.23 (偏差 0.00%)
+  ✅ 通过 [55] 现金资本开支 · 2026H1                      报告:       447.03 亿元
+                                                    https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12572791&stockid=002594: 447.03 (偏差 0.00%)  |  https://market.weidn.com/cn/company/hk/01211/: 447.03 (偏差 0.00%)
+  ✅ 通过 [65] 汽车、汽车相关产品及其他产品 · 2025毛利率             报告:        20.49 %
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 20.49 (偏差 0.00%)  |  https://www.sznews.com/news/content/2026-04/01/content_32001455.htm: 20.49 (偏差 0.00%)
+  ✅ 通过 [70] 电子及其他产品 · 2026H1收入（亿元）               报告:       694.05 
+                                                    https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12572791&stockid=002594: 694.05 (偏差 0.00%)  |  https://wap.eastmoney.com/a/202608283858800757.html: 694.05 (偏差 0.00%)
+  ✅ 通过 [76] 境外 · 2025收入（亿元）                      报告:      3107.41 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf: 3107.41 (偏差 0.00%)  |  https://www.sznews.com/news/content/2026-04/01/content_32001455.htm: 3107.41 (偏差 0.00%)
+  ✅ 通过 [82] 2025年再投资 · 已知结果                      报告:      -976.72 亿元
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702970_c.pdf CFO-Capex: -976.72 (偏差 0.00%)  |  https://www.yingman.com/stock/002594/xianjinliu/ CFO-Capex: -976.72 (偏差 0.00%)
+  ✅ 通过 [87] 两项合计 · 人民币亿元                         报告:      1286.78 
+                                                    https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12572791&stockid=002594 两项相加: 1286.78 (偏差 0.00%)  |  https://vip.stock.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/002594/ctrl/part/displaytype/4.phtml 两项相加: 1286.78 (偏差 0.00%)
+  ✅ 通过 [95] 永续债 · 人民币亿元                          报告:       208.47 
+                                                    https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12572791&stockid=002594: 208.47 (偏差 0.00%)  |  https://mpf.etnet.com.hk/www/eng/stocks/realtime/quote_ci_bs.php?code=1211: 208.47 (偏差 0.00%)
+  ✅ 通过 [115] 乐观 · 折现至今A/H价值                       报告:       104.78 
+                                                    模型假设与官方TTM输入独立Decimal复算: 104.78 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽检总数: 19  |  通过: 19  |  警告: 0  |  不通过: 0
+
+【准出】所有抽检数据通过，报告可发布。
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 19,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 19,
+  "fail_items": [],
+  "warn_items": []
+}
