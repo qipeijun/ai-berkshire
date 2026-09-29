@@ -1,0 +1,339 @@
+{
+  "report": "reports/粤高速/粤高速A投资研究报告_20260929.md",
+  "audit_date": "2026-09-29",
+  "ratio": 0.15,
+  "seed": 42,
+  "total_extracted_points": 351,
+  "sampled_points": 30,
+  "verdict": "PASS",
+  "pass_count": 25,
+  "warn_count": 0,
+  "fail_count": 0,
+  "not_applicable_count": 5,
+  "not_applicable_reason": "模型输出值与第三方研报观点，不属于可由外部信源取数的客观事实。",
+  "valuation_audit": {
+    "currency": "CNY",
+    "r": 0.08,
+    "roic": 0.09,
+    "g": [
+      0.005,
+      0.015,
+      0.02
+    ],
+    "rf": 0.017,
+    "beta": 0.75,
+    "check_C1": "PASS",
+    "check_C2": "PASS",
+    "check_C3": "PASS",
+    "exit_code": 0
+  },
+  "results": [
+    {
+      "id": 7,
+      "label": "佛开高速持股",
+      "reported_value": 100.0,
+      "unit": "%",
+      "fetched_value": 100.0,
+      "status": "PASS"
+    },
+    {
+      "id": 19,
+      "label": "2021营业收入",
+      "reported_value": 52.88,
+      "unit": "亿",
+      "fetched_value": 52.88,
+      "status": "PASS"
+    },
+    {
+      "id": 21,
+      "label": "2023营业收入",
+      "reported_value": 48.79,
+      "unit": "亿",
+      "fetched_value": 48.79,
+      "status": "PASS"
+    },
+    {
+      "id": 24,
+      "label": "2020毛利率",
+      "reported_value": 56.15,
+      "unit": "%",
+      "fetched_value": 56.15,
+      "status": "PASS"
+    },
+    {
+      "id": 25,
+      "label": "2021毛利率",
+      "reported_value": 63.51,
+      "unit": "%",
+      "fetched_value": 63.51,
+      "status": "PASS"
+    },
+    {
+      "id": 26,
+      "label": "2022毛利率",
+      "reported_value": 61.95,
+      "unit": "%",
+      "fetched_value": 61.95,
+      "status": "PASS"
+    },
+    {
+      "id": 33,
+      "label": "2023归母净利",
+      "reported_value": 16.34,
+      "unit": "亿",
+      "fetched_value": 16.34,
+      "status": "PASS"
+    },
+    {
+      "id": 35,
+      "label": "2025归母净利",
+      "reported_value": 18.01,
+      "unit": "亿",
+      "fetched_value": 18.0134,
+      "status": "PASS"
+    },
+    {
+      "id": 70,
+      "label": "惠盐2026H1收入同比",
+      "reported_value": 19.53,
+      "unit": "%",
+      "fetched_value": 19.53,
+      "status": "PASS"
+    },
+    {
+      "id": 74,
+      "label": "长深河惠段原费率",
+      "reported_value": 0.45,
+      "unit": "元/标准车公里",
+      "fetched_value": 0.45,
+      "status": "PASS"
+    },
+    {
+      "id": 93,
+      "label": "股价",
+      "reported_value": 12.31,
+      "unit": "元",
+      "fetched_value": 12.31,
+      "fetched_source": "腾讯行情",
+      "fetched_value2": 12.31,
+      "fetched_source2": "新浪行情",
+      "status": "PASS"
+    },
+    {
+      "id": 110,
+      "label": "FY2025每股股息",
+      "reported_value": 0.604,
+      "unit": "元",
+      "fetched_value": 0.604,
+      "status": "PASS"
+    },
+    {
+      "id": 137,
+      "label": "中性情景目标股价",
+      "reported_value": 9.8,
+      "status": "N/A",
+      "reason": "三情景模型输出值"
+    },
+    {
+      "id": 138,
+      "label": "中性情景涨跌幅",
+      "reported_value": -20.6,
+      "unit": "%",
+      "status": "N/A",
+      "reason": "三情景模型输出值"
+    },
+    {
+      "id": 139,
+      "label": "悲观情景年增速",
+      "reported_value": -3.0,
+      "unit": "%",
+      "status": "N/A",
+      "reason": "模型假设参数"
+    },
+    {
+      "id": 150,
+      "label": "近5年最高PB",
+      "reported_value": 2.98,
+      "unit": "倍",
+      "fetched_value": 2.98,
+      "status": "PASS"
+    },
+    {
+      "id": 157,
+      "label": "赣粤高速PE",
+      "reported_value": 6.8,
+      "unit": "倍",
+      "fetched_value": 6.84,
+      "status": "PASS"
+    },
+    {
+      "id": 162,
+      "label": "福建高速PE",
+      "reported_value": 10.5,
+      "unit": "倍",
+      "fetched_value": 10.45,
+      "status": "PASS"
+    },
+    {
+      "id": 175,
+      "label": "中原高速市值",
+      "reported_value": 85.8,
+      "unit": "亿",
+      "fetched_value": 85.85,
+      "status": "PASS"
+    },
+    {
+      "id": 192,
+      "label": "粤高速A PE(归母)",
+      "reported_value": 14.3,
+      "unit": "倍",
+      "fetched_value": 14.29,
+      "status": "PASS"
+    },
+    {
+      "id": 193,
+      "label": "粤高速A ROE加权",
+      "reported_value": 16.83,
+      "unit": "%",
+      "fetched_value": 16.83,
+      "status": "PASS"
+    },
+    {
+      "id": 194,
+      "label": "粤高速A PB",
+      "reported_value": 2.43,
+      "unit": "倍",
+      "fetched_value": 2.43,
+      "status": "PASS"
+    },
+    {
+      "id": 197,
+      "label": "招商公路PE",
+      "reported_value": 14.7,
+      "unit": "倍",
+      "fetched_value": 14.69,
+      "status": "PASS"
+    },
+    {
+      "id": 220,
+      "label": "中金公司目标价",
+      "reported_value": 15.23,
+      "unit": "元",
+      "status": "N/A",
+      "reason": "第三方研报观点，单一来源"
+    },
+    {
+      "id": 257,
+      "label": "FY2021现金分红总额",
+      "reported_value": 11.92,
+      "unit": "亿",
+      "fetched_value": 11.9176,
+      "status": "PASS"
+    },
+    {
+      "id": 264,
+      "label": "FY2023每10股派息",
+      "reported_value": 5.47,
+      "unit": "元",
+      "fetched_value": 5.47,
+      "status": "PASS"
+    },
+    {
+      "id": 275,
+      "label": "FY2025分红率",
+      "reported_value": 70.1,
+      "unit": "%",
+      "fetched_value": 70.11,
+      "status": "PASS"
+    },
+    {
+      "id": 281,
+      "label": "广东飞达2024年采购",
+      "reported_value": 494.0,
+      "unit": "万元",
+      "fetched_value": 493.88,
+      "status": "PASS"
+    },
+    {
+      "id": 291,
+      "label": "广惠改扩建公司资本金",
+      "reported_value": 54.48,
+      "unit": "亿",
+      "fetched_value": 54.48,
+      "status": "PASS"
+    },
+    {
+      "id": 311,
+      "label": "6.7%档相对现价",
+      "reported_value": -14.1,
+      "unit": "%",
+      "status": "N/A",
+      "reason": "估值模型输出值"
+    }
+  ],
+  "key_verifications": [
+    {
+      "item": "市值验算",
+      "price": 12.31,
+      "shares": 2090806126,
+      "market_cap": 25738000000,
+      "deviation": "0.00%",
+      "result": "PASS"
+    },
+    {
+      "item": "2026H1营业收入交叉验证",
+      "source1": "东方财富21.19亿",
+      "source2": "巨潮半年报21.19亿",
+      "deviation": "0.00%",
+      "result": "PASS"
+    },
+    {
+      "item": "2026H1归母净利交叉验证",
+      "source1": "东方财富8.50亿",
+      "source2": "巨潮半年报8.50亿",
+      "deviation": "0.00%",
+      "result": "PASS"
+    },
+    {
+      "item": "2025营业收入交叉验证",
+      "source1": "东方财富44.70亿",
+      "source2": "巨潮年报44.70亿",
+      "deviation": "0.00%",
+      "result": "PASS"
+    },
+    {
+      "item": "2025归母净利交叉验证",
+      "source1": "东方财富18.01亿",
+      "source2": "巨潮年报18.01亿",
+      "deviation": "0.01%",
+      "result": "PASS"
+    },
+    {
+      "item": "总股本交叉验证",
+      "source1": "东方财富F10 20.91亿股",
+      "source2": "腾讯行情推算20.91亿股",
+      "deviation": "0.00%",
+      "result": "PASS"
+    },
+    {
+      "item": "补充数据抽检(同业一手年报)",
+      "sampled": 30,
+      "passed": 20,
+      "warned": 0,
+      "failed": 0,
+      "verdict": "PASS"
+    }
+  ],
+  "second_pass": {
+    "note": "补充同业一手年报数据后重新抽检",
+    "sampled_points": 30,
+    "verifiable_facts": 20,
+    "pass_count": 20,
+    "warn_count": 0,
+    "fail_count": 0,
+    "not_applicable_count": 10,
+    "not_applicable_reason": "模型假设参数、模型输出值、推算值与主观评级",
+    "verdict": "PASS",
+    "max_deviation": "0.03%"
+  }
+}
