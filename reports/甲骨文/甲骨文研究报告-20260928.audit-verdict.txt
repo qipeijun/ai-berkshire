@@ -1,0 +1,60 @@
+======================================================================
+报告数据抽检 — 准出/打回判决
+报告：reports/甲骨文研究报告-20260928.md
+======================================================================
+
+  ⬜ [ 2] 最近完整收盘 · 口径                                 9.00   →  [未提供核验值，跳过]
+  ✅ 通过 [ 7] TTM GAAP市盈率 · 数值                     报告:        21.49 x
+                                                    Decimal:137.10/6.38；股价Investing/SA，EPS为官方已报四季度之和: 21.49 (偏差 0.00%)
+  ✅ 通过 [ 9] FY2027指引市盈率 · 口径                     报告:         8.10 
+                                                    https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx: 8.10 (偏差 0.00%)
+  ✅ 通过 [ 8] FY2027指引市盈率 · 数值                     报告:        16.93 x
+                                                    Decimal:137.10/8.10；管理层非GAAP指引，非实际盈利: 16.93 (偏差 0.02%)
+  ✅ 通过 [23] 普通股归属净利润 · FY2024                    报告:     10467.00 
+                                                    https://www.macrotrends.net/stocks/charts/ORCL/oracle/net-income: 10467.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/income-statement/: 10467.00 (偏差 0.00%)
+  ✅ 通过 [24] 普通股归属净利润 · FY2025                    报告:     12443.00 
+                                                    https://www.macrotrends.net/stocks/charts/ORCL/oracle/net-income: 12443.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/income-statement/: 12443.00 (偏差 0.00%)
+  ✅ 通过 [29] GAAP稀释EPS · FY2025                   报告:         4.34 
+                                                    https://www.macrotrends.net/stocks/charts/ORCL/oracle/eps-earnings-per-share-diluted: 4.34 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/income-statement/: 4.34 (偏差 0.00%)
+  ✅ 通过 [27] GAAP稀释EPS · FY2023                   报告:         3.07 
+                                                    https://www.macrotrends.net/stocks/charts/ORCL/oracle/eps-earnings-per-share-diluted: 3.07 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/income-statement/: 3.07 (偏差 0.00%)
+  ✅ 通过 [36] GAAP经营利润率 · FY2022                   报告:        25.74 %
+                                                    Decimal:10926/42440*100; https://www.macrotrends.net/stocks/charts/ORCL/oracle/operating-income ; https://www.macrotrends.net/stocks/charts/ORCL/oracle/revenue: 25.74 (偏差 0.02%)
+  ✅ 通过 [51] 自由现金流 · FY2022                       报告:      5028.00 
+                                                    https://www.macrotrends.net/stocks/charts/ORCL/ORCL/free-cash-flow: 5028.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/: 5028.00 (偏差 0.00%)
+  ✅ 通过 [56] 收入 · FY2026第一季度                      报告:     14926.00 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 14926.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/?p=quarterly: 14926.00 (偏差 0.00%)
+  ✅ 通过 [57] 收入 · FY2027第一季度                      报告:     19345.00 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 19345.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/?p=quarterly: 19345.00 (偏差 0.00%)
+  ✅ 通过 [58] GAAP经营利润 · FY2026第一季度                报告:      4277.00 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 4277.00 (偏差 0.00%)  |  https://www.macrotrends.net/stocks/charts/ORCL/oracle/operating-income: 4277.00 (偏差 0.00%)
+  ✅ 通过 [60] 普通股归属净利 · FY2026第一季度                 报告:      2927.00 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 2927.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/?p=quarterly: 2927.00 (偏差 0.00%)
+  ✅ 通过 [63] GAAP稀释EPS · FY2027第一季度               报告:         1.56 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 1.56 (偏差 0.00%)  |  https://stockanalysis.com/stocks/orcl/financials/?p=quarterly: 1.56 (偏差 0.00%)
+  ✅ 通过 [71] 流动及非流动借款 · 2026年8月末                  报告:    125337.00 
+                                                    https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 125337.00 (偏差 0.00%)
+  ✅ 通过 [72] 狭义净借款 · 2026年8月末                     报告:     88260.00 
+                                                    Decimal:7625+117712-36369-708; https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm: 88260.00 (偏差 0.00%)
+  ✅ 通过 [109] 悲观 · 含分红三年总回报                        报告:       -44.74 %
+                                                    Decimal:(6.38*0.9**3*15+6)/137.10-1; model assumptions only: -44.74 (偏差 0.01%)
+  ✅ 通过 [108] 悲观 · 价格涨跌幅                           报告:       -49.11 %
+                                                    Decimal:(6.38*0.9**3*15)/137.10-1; model assumptions only: -49.11 (偏差 0.01%)
+  ⬜ [115] 更高要求回报率 · 条件                               15.00 %  →  [未提供核验值，跳过]
+
+----------------------------------------------------------------------
+  抽检总数: 18  |  通过: 18  |  警告: 0  |  不通过: 0
+
+【准出】所有抽检数据通过，报告可发布。
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 18,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 18,
+  "fail_items": [],
+  "warn_items": []
+}
+
+人工限定：20个随机样本，18个引用事实/计算核验，2个日期/假设排除。单一发行人指引、窄口径借款及其派生净借款仍有独立双源边界。工具PASS仅是样本数值结论，非全部数据双源认证或投资建议认证。

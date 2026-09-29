@@ -1,0 +1,50 @@
+{
+  "price": "137.10",
+  "price_date": "2026-09-25",
+  "shares": "3031501149",
+  "shares_date": "2026-09-21",
+  "market_cap_usd": "415618807527.90",
+  "ttm_eps": "6.38",
+  "discount_rate": ".12",
+  "horizon_years": 3,
+  "assumed_annual_dividend": "2",
+  "scenarios": [
+    {
+      "scenario": "乐观",
+      "growth": ".20",
+      "pe": "25",
+      "eps": "11.02464000",
+      "terminal_price": "275.61600000",
+      "price_return": "1.010328227571115973741794311",
+      "total_return_without_reinvestment": "1.054091903719912472647702407",
+      "present_value": "200.9816873177842565597667638",
+      "present_value_extra_10pct_shares": "183.1473214285714285714285714"
+    },
+    {
+      "scenario": "中性",
+      "growth": ".10",
+      "pe": "20",
+      "eps": "8.49178000",
+      "terminal_price": "169.83560000",
+      "price_return": "0.238771699489423778264040846",
+      "total_return_without_reinvestment": "0.282535375638220277169948942",
+      "present_value": "125.6892879919825072886297376",
+      "present_value_extra_10pct_shares": "114.6996856778425655976676385"
+    },
+    {
+      "scenario": "悲观",
+      "growth": "-.10",
+      "pe": "15",
+      "eps": "4.65102000",
+      "terminal_price": "69.76530000",
+      "price_return": "-0.4911356673960612691466083151",
+      "total_return_without_reinvestment": "-0.4473719912472647702407002188",
+      "present_value": "54.46122505922011661807580175",
+      "present_value_extra_10pct_shares": "49.94690119351311953352769679"
+    }
+  ],
+  "base_25pct_margin_price": "94.26696599398688046647230320",
+  "q1_prepaid_adjusted_ocf_million": "11740",
+  "q1_prepaid_adjusted_fcf_million": "-16759",
+  "note": "Decimal independently checks material arithmetic; scenarios are assumptions, not forecasts. Prepayment adjustment is sensitivity only."
+}
