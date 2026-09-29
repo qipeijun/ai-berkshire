@@ -1,0 +1,51 @@
+======================================================================
+[1m报告数据抽检 — 准出/打回判决[0m
+报告：reports/微软/微软研究报告-20260928.md
+======================================================================
+
+  ⬜ [ 4] 风险与管理层 · 评分（满分五分）                           3.50   →  [未提供核验值，跳过]
+  ⬜ [ 5] 综合 · 评分（满分五分）                               3.90   →  [未提供核验值，跳过]
+  [92m✅ 通过[0m [15] 营业利润 · FY2026                        报告:    155237.00 百万美元
+                                                    https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast: 155237.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/: 155237.00 (偏差 0.00%)
+  [92m✅ 通过[0m [14] 营业利润 · FY2025                        报告:    128528.00 百万美元
+                                                    https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast: 128528.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/: 128528.00 (偏差 0.00%)
+  [92m✅ 通过[0m [12] 营业利润 · FY2023                        报告:     88523.00 百万美元
+                                                    https://www.microsoft.com/investor/reports/ar24/: 88523.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/: 88523.00 (偏差 0.00%)
+  [92m✅ 通过[0m [18] GAAP净利润 · FY2024                     报告:     88136.00 百万美元
+                                                    https://www.microsoft.com/investor/reports/ar24/: 88136.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/: 88136.00 (偏差 0.00%)
+  [92m✅ 通过[0m [29] 经营现金流 · FY2025                       报告:    136162.00 百万美元
+                                                    https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast: 136162.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/: 136162.00 (偏差 0.00%)
+  [92m✅ 通过[0m [28] 经营现金流 · FY2024                       报告:    118548.00 百万美元
+                                                    https://www.microsoft.com/investor/reports/ar24/: 118548.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/: 118548.00 (偏差 0.00%)
+  [92m✅ 通过[0m [30] 经营现金流 · FY2026                       报告:    182935.00 百万美元
+                                                    https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast: 182935.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/: 182935.00 (偏差 0.00%)
+  [92m✅ 通过[0m [32] 现金资本开支 · FY2023                      报告:     28107.00 百万美元
+                                                    https://www.microsoft.com/investor/reports/ar24/: 28107.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/: 28107.00 (偏差 0.00%)
+  [92m✅ 通过[0m [36] 简单自由现金流 · FY2022                     报告:     65149.00 百万美元
+                                                    https://www.microsoft.com/investor/reports/ar24/: 65149.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/: 65149.00 (偏差 0.00%)
+  [92m✅ 通过[0m [55] 平均资产ROA · FY2025                     报告:        18.00 %
+                                                    Decimal独立重算；只验证算术，不验证假设: 18.00 (偏差 0.03%)
+  [92m✅ 通过[0m [70] 更多个人计算 · FY2026收入                    报告:     54052.00 百万美元
+                                                    https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast: 54052.00 (偏差 0.00%)  |  https://stockanalysis.com/stocks/msft/financials/: 54052.00 (偏差 0.00%)
+  ⬜ [76] 技术壁垒 · 主观评分                                 3.50   →  [未提供核验值，跳过]
+  [92m✅ 通过[0m [82] 市销率 · 计算结果                           报告:        11.55 
+                                                    Decimal独立重算；只验证算术，不验证假设: 11.55 (偏差 0.02%)
+  [92m✅ 通过[0m [87] 扣融资租赁本金后倍数 · 计算结果                    报告:        60.01 
+                                                    Decimal独立重算；只验证算术，不验证假设: 60.01 (偏差 0.01%)
+  [92m✅ 通过[0m [95] 乐观 · 固定股息假设下IRR                      报告:        22.33 %
+                                                    Decimal独立重算；只验证算术，不验证假设: 22.33 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽检总数: 14  |  通过: [92m14[0m  |  警告: [93m0[0m  |  不通过: [91m0[0m
+
+[1m[92m【准出】所有抽检数据通过，报告可发布。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 14,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 14,
+  "fail_items": [],
+  "warn_items": []
+}
